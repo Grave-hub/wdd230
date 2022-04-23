@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+
+}
+
+header, main, footer {
+    max-width: 700px;
+    margin: 0, auto;
+}
+
+header {
+    margin: 1rem auto;
+    border: 1px solid #6b5b91;
+    padding: .5rem;
+    background-color: #6b5b95;
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    align-items:center;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    margin: none;
+}
