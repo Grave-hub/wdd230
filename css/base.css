@@ -1,12 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins|Roboto");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto";
 }
 
 body {
     font-size: 16px;
+    padding: .5rem;
+}
 
+main {
+    text-align: center;
+    margin: auto;
+    background-color: #a59ac1 ;
+    border-radius: 25px;
+    border: 8px solid #403759;
+    color: white;
+}
+
+main ul {
+    text-align: left;
+    margin: 1em auto 1em 1em;
+    list-style: none;
+    line-height: 2em;
+    color: white;
+}
+
+hr.solid {
+    border-top: 8px solid #403759 ;
+    border-radius: 5px;
+    margin: auto;
+    max-width: 75%;
 }
 
 header, main, footer {
@@ -14,18 +40,41 @@ header, main, footer {
     margin: 0, auto;
 }
 
+header h1 {
+    text-align: right;
+    margin:auto;
+    padding: auto;
+    color:white;
+}
+
 header {
     margin: 1rem auto;
-    border: 1px solid #6b5b91;
+    border: 8px solid #403759;
     padding: .5rem;
     background-color: #6b5b95;
     display:grid;
     grid-template-columns: 200px 1fr;
     align-items:center;
+    border-radius: 25px;
 }
 
 header img {
     width: 100%;
     height: auto;
     margin: none;
+    border-radius: 25px;
+}
+
+footer {
+    text-align: center;
+    margin: 1em auto;
+    border: 8px solid #403759;
+    padding: .5rem;
+    background-color: #6b5b95;
+    color: white;
+    border-radius: 25px;
+}
+footer p {
+    text-align: center;
+    color: white;
 }
