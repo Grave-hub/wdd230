@@ -9,6 +9,7 @@
     this site includes links to assignments as well as basic personal information">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/small.css"
 </head>
 
 <body>
@@ -32,12 +33,8 @@
         </ul>
     </main>
     <footer>
-    <p>Adam Gravy&copy; - WDD 230 - <script>document.write(/\d{4}/.exec(Date())[0])</script>
+    <p>Adam Gravy&copy; - WDD 230 - <script src="js/last_updated.js" defer></script>
     Last updated: <p id="lastUpdate"></p></p>
-    <script>
-        const date = new Date(document.lastModified);
-        document.getElementById("lastUpdate").innerHTML = date;
-        </script>
     </footer>
 </body>
 
