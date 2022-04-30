@@ -1,0 +1,25 @@
+@media only screen and (min-width:992px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    header h2 {
+        font-size: 24px;
+    }
+
+    header img {
+        width: 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+        grid-gap: 10px;
+        margin: auto;
+    }
+
+    footer p {
+        font-size: large;
+    }
+}
