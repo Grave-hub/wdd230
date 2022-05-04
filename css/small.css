@@ -12,14 +12,13 @@
     header h1 {
         text-align: right;
         margin:auto;
-        padding: none;
         color:white;
         font-size: 20px;
     }
     header {
         margin: 1rem auto;
         border: 8px solid #403759;
-        padding: auto auto auto 1%;
+        padding: auto;
         background-color: #6b5b95;
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -43,7 +42,6 @@
     header img {
         width: 50%;
         height: auto;
-        margin: none;
         border-radius: 25px;
     }
 }   
