@@ -83,6 +83,11 @@ section h4, section h3, a {
     margin:10px auto 10px auto;
 }
 
+section p {
+    padding: 2%;
+    font-weight: bolder;
+}
+
 footer {
     text-align: center;
     margin: 1em auto;
