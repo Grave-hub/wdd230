@@ -18,7 +18,6 @@
     header {
         margin: 1rem auto;
         border: 8px solid #403759;
-        padding: auto;
         background-color: #6b5b95;
         display:grid;
         grid-template-columns: 1fr 1fr;
