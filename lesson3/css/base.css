@@ -1,0 +1,347 @@
+
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: auto 25% 3% 25%;
+    border: 8px solid #05b2dc;
+    padding: 1rem;
+    background-color: #1e5871;
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    align-items:center;
+    border-radius: 25px;
+    font-family:"Poppins";
+    text-align: center;
+    color: white;
+}
+
+header img {
+    width: 75%;
+    height: auto;
+    border-radius: 25px;
+    padding: 5%;
+}
+
+#purpose {
+    text-align: center;
+    background-color: #1e5871 ;
+    border: 8px solid #05b2dc;
+    color: white;
+    font-family: "Roboto";
+    padding: 2%;
+    line-height:normal;
+}
+
+#gen_info {
+    text-align: center;
+    background-color: #1e5871;
+    border: 8px solid #05b2dc;
+    color: white;
+    font-family: "Roboto";
+    padding: 1%;
+    line-height:normal;
+}
+
+#gen_info p {
+    padding: 2%;
+    font-size: large;
+    line-height: 2rem;
+}
+
+#gen_info img {
+    border: 5px solid #05b2dc;
+    width: 25%;
+    height: auto;
+}
+
+#target_audience {
+    background-color: #1e5871;
+    border: 8px solid #05b2dc;
+    color: white;
+    font-family: "Roboto";
+    padding: 3%;
+    text-align: left;
+    line-height: 150%;
+}
+
+#color_total {
+    background-color: #1e5871;
+    border: 8px solid #05b2dc;
+    color: white;
+    font-family: "Roboto";
+    display: grid;
+    grid-template-columns: 2;
+}
+
+#color_palette {
+    color: white;
+    font-family: "Roboto";
+    padding: 3%;
+    text-align: center;
+    line-height: 150%;
+    grid-column: 2;
+}
+
+#color_info {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: #1e5871;
+    color: white;
+    text-align: left;
+}
+
+#font_stuff {
+    background-color: #1e5871;
+    border: 8px solid #05b2dc;
+    color: white;
+    font-family: "Roboto";
+    padding: 3%;
+    text-align: left;
+    line-height: 150%;
+}
+#poppins_paragraph {
+    font-family: "Poppins";
+}
+
+#personas {
+    background-color: #1e5871;
+    border: 8px solid #05b2dc;
+    color: white;
+    font-family: "Roboto";
+    padding: 3%;
+    text-align: left;
+    line-height: 200%;
+}
+
+#scenarios {
+    background-color: #1e5871;
+    border: 8px solid #05b2dc;
+    color: white;
+    font-family: "Roboto";
+    padding: 3%;
+    text-align: left;
+    line-height: 200%;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+    background-color: #1e5871;
+    border: 8px solid #05b2dc;
+    margin: 3% 0 3% 0;
+    font-family: "Roboto";
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+nav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 5%;
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+nav a:hover {
+	background-color: #708080;
+}
+
+footer {
+    text-align: center;
+    margin: 1em auto;
+    border: 8px solid #05b2dc;
+    padding: .5rem;
+    background-color: #1e5871;
+    color: white;
+}
+footer p {
+    text-align: center;
+    color: white;
+    font-family: "Roboto";
+    
+}
+
+/* small screen */
+
+@media only screen and (max-width:600px){
+    header img {
+        width: 50%;
+        height: auto;
+    }
+    header {
+        grid-template-columns: 100px 1fr;
+    }
+    header h1 {
+        font-size: small;
+    }
+    #purpose {
+        font-size: smaller;
+    }
+    #gen_info p {
+        font-size: smaller;
+    }
+    nav {
+        flex-direction: column;
+    }
+    nav div {
+        flex: 25% auto;
+    }
+    nav a {
+        font-size: smaller;
+    }
+    footer p {
+        font-size: small;
+        font-weight: bold;
+    }
+    #target_audience {
+        font-size: small;
+    }
+    #target_audience h1 {
+        font-size: medium;
+    }
+    #personas {
+        font-size: small;
+    }
+    #personas h1,h2 {
+        font-size: medium;
+    }
+    #color_palette h1, h2, p {
+        font-size: small;
+    }
+    #color_palette img{
+        max-width: 25%;
+    }
+    #scenarios {
+        font-size: small;
+    }
+    #scenarios h1 {
+        font-size: medium;
+    }
+    #color_palette h2, p {
+        font-size: small;
+    }
+    #color_total h2, p {
+        font-size: small;
+    }
+    #color_info h2, p {
+        font-size: small;
+    }
+    #color_info {
+        margin: 3%;
+    }
+}
+
+/* medium screen */
+
+@media only screen and (min-width: 600px){
+    header img {
+        width: 75%;
+        height: auto;
+    }
+    header {
+        grid-template-columns: 150px 1fr;
+    }
+    header h1 {
+        font-size: medium;
+    }
+    #purpose {
+        font-size: medium;
+    }
+    #gen_info p {
+        font-size: medium;
+    }
+    #target_audience {
+        font-size: medium;
+    }
+    #target_audience h1 {
+        font-size: larger;
+    }
+    #personas {
+        font-size: medium;
+    }
+    #personas h1,h2 {
+        font-size: large;
+    }
+    #color_palette h1, h2, p {
+        font-size: medium;
+    }
+    #color_palette img{
+        max-width: 50%;
+    }
+    #scenarios {
+        font-size: medium;
+    }
+    #scenarios h1 {
+        font-size: large;
+    }
+    #color_palette h2, p {
+        font-size: medium;
+    }
+    #color_total h2, p {
+        font-size: medium;
+    }
+    #color_info h2, p {
+        font-size: medium;
+    }
+}
+
+/* big screen */
+
+@media only screen and (min-width: 992px){
+    header img {
+        width: 100%;
+        height: auto;
+    }
+    header {
+        grid-template-columns: 200px 1fr;
+    }
+    header h1 {
+        font-size: x-large;
+    }
+    #purpose {
+        font-size: large;
+    }
+    #gen_info p {
+        font-size: large;
+    }
+    #target_audience {
+        font-size: larger;
+    }
+    #target_audience h1 {
+        font-size: large;
+    }
+    #personas {
+        font-size: large;
+    }
+    #personas h1,h2 {
+        font-size: larger;
+    }
+    #color_palette h1, h2, p {
+        font-size: large;
+    }
+    #color_palette img{
+        max-width: 100%;
+    }
+    #scenarios {
+        font-size: large;
+    }
+    #scenarios h1 {
+        font-size: larger;
+    }
+    #color_palette h2, p {
+        font-size: large;
+    }
+    #color_total h2, p {
+        font-size: large;
+    }
+    #color_info h2, p {
+        font-size: large;
+    }
+}
