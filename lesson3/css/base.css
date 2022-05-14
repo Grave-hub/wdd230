@@ -74,7 +74,7 @@ header img {
     color: white;
     font-family: "Roboto";
     display: grid;
-    grid-template-columns: 2;
+    grid-template-columns: 1fr 1fr;
 }
 
 #color_palette {
@@ -137,7 +137,7 @@ nav {
 }
 
 nav div {
-	flex: 1 1 auto;
+	flex: 1 1;
 }
 
 nav a {
@@ -164,8 +164,7 @@ footer {
 footer p {
     text-align: center;
     color: white;
-    font-family: "Roboto";
-    
+    font-family: "Roboto"; 
 }
 
 /* small screen */
@@ -191,7 +190,7 @@ footer p {
         flex-direction: column;
     }
     nav div {
-        flex: 25% auto;
+        flex: 25%;
     }
     nav a {
         font-size: smaller;
