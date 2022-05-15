@@ -11,24 +11,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
         <header>
-            <picture><img src="images/apache_junction.png" alt="apache junction town logo"></picture>
-            <h1> Apache Junction Chamber of Commerce</h1>
-            <span id="logos"><a href="https://www.instagram.com/?hl=en">Instagram</a></span>
+            <div class="logo_title">
+                <picture><img src="images/apache_junction.png" alt="apache junction town logo"></picture>
+                <h2>Apache Junction</h2>
+                <h4>Chamber of Commerce</h4>
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a class="ham" href="#"> Menu </a></li>
+                    <li><a href="index.html"> Discover </a>
+                    </li>
+                    <li><a href="target-audience.html"> Directory </a>
+                    </li>
+                    <li><a href="color-scheme.html"> Join </a>
+                    </li>
+                    <li><a href="typography.html"> Contact </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <a href="https://instagram.com/ajchamber?igshid=YmMyMTA2M2Y=" class="fa fa-instagram"></a>
+                <a href="https://www.linkedin.com/company/apache-junction-chamber-of-commerce-visitor-center/" class="fa fa-linkedin"></a>
+            </div>
+            <div class="date_time">
+                <p><span id="datetoday"></span></p>
+            </div>
         </header>
-        <nav>
-            <div> <a href="index.html"> Discover </a>
-            </div>
-            <div> <a href="target-audience.html"> Directory </a>
-            </div>
-            <div> <a href="color-scheme.html"> Join </a>
-            </div>
-            <div> <a href="typography.html"> Contact </a>
-            </div>
-        </nav>
     <main>
+        <div class="event"><p>events</p></div>
+        <div class="weather"><p>weather</p></div>
+        <div class="join"><p>join here</p></div>
+        <div class="hero"><p>Hero with site name and call to action</p></div>
+        <div class="news"><p>news</p></div>
+        <div class="spotlights">
+            <div class="spotlight1"><p>spotlight 1</p></div>
+            <div class="spotlight2"><p>spotlight 2</p></div>
+            <div class="spotlight3"><p>spotlight 3</p></div>
+        </div>
     </main>
         <footer>
             <picture><img src="images/apache_junction.png"></picture>
@@ -36,9 +61,11 @@
             <div id="contact"><h3>ajchamberoc.org</h3><h3>(602) 255-0072</h3><p>map location</p></div>
             <div id="footer_info">
             <hr class="solid">
-            <p>Adam Gravy - WDD 230 - &copy;<span id="year"></span> - Last updated: <span id="last_updated"></span></p>
+            <p> &copy;<span id="year"></span> Apache Junction C.O.C. | Adam Gravy | WDD 230 | Last updated: <span id="last_updated"></span></p>
             </div>
         </footer>
         <script src="js/year.js" defer></script>
+        <script src="js/datetoday.js" defer></script>
+        <script src="js/menu.js" defer></script>
 </body>
 </html>

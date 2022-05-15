@@ -4,42 +4,117 @@
     box-sizing: border-box;
 }
 
+p, h1, h2, h3, h4, ul, li, a {
+    font-size: small;
+}
+
 h1, h2, h3 {
     font-family: "Poppins";
 }
 
-header {
-    margin: auto 25% 3% 25%;
-    border: 8px solid #05b2dc;
-    padding: 1rem;
-    background-color: #1e5871;
-    display:grid;
-    grid-template-columns: 200px 1fr .5fr;
-    align-items:center;
-    border-radius: 25px;
-    font-family:"Poppins";
+.logo_title {
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2;
     text-align: center;
-    color: white;
 }
-
-header img {
+.logo_title img {
+    grid-row: 1/3;
+    grid-column: 1;
+    min-width: 50px;
     width: 75%;
     height: auto;
     border-radius: 25px;
     padding: 5%;
+}
+.logo_title h2 {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    padding:50% 0 50% 0;
+}
+.logo_title h4 {
+    grid-column: 1/3;
+    grid-row: 2;
+}
+header {
+    border: 8px solid #05b2dc;
+    background-color: #1e5871;
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr .5fr;
+    align-items:center;
+    justify-content: space-between;
+    font-family:"Poppins";
+    text-align: center;
+    color: white;
+    padding: 1%;
 }
 
 a {
     color: white;
 }
 
-nav {
-	display: flex;
-	flex-direction: row;
-    background-color: #1e5871;
-    border: 8px solid #05b2dc;
-    margin: 3% 0 3% 0;
-    font-family: "Roboto";
+.icons {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 1%;
+}
+
+.fa {
+    padding: 3px 0 3px 0;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.navigation {
+	list-style: none;
+	padding: 0;
+    grid-column: 3;
+    grid-row: 1/-1;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+    font-size: smaller;
+}
+
+.navigation a.ham::before {
+	content:em-block;
+}
+
+.navigation a:hover {
+	color: white;
+	background-color: #05b2dc;
+}
+
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
+}
+
+.responsive a.ham::before {
+	content: "❌ ";
 }
 
 nav div {
@@ -50,7 +125,7 @@ nav a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 5%;
+	padding: 3%;
 	text-decoration: none;
 	font-size: 1rem;
 }
@@ -59,33 +134,50 @@ nav a:hover {
 	background-color: #708080;
 }
 
+.date_time {
+    grid-column: 2;
+    grid-row: 2;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e5871;
+    color: white;
+    border: solid 8px #05b2dc;
+    padding: 2%;
+    margin: 0;
+    font-family: "Roboto";
+}
+
 footer {
     text-align: center;
-    margin: 1em auto;
     border: 8px solid #05b2dc;
     padding: .5rem;
     background-color: #1e5871;
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
 }
-footer p {
+footer p, h2, h3 {
     text-align: center;
     color: white;
     font-family: "Roboto";
-    
+    font-size: smaller;
 }
 #footer_info {
     grid-column: 1/-1;
     grid-row: 2;
+    padding: 1%;
     margin: 0;
 }
 
 footer img {
-    max-width: 100px;
-    grid-column: 1;
-    grid-row: 1;
+    max-width: 50px;
 }
 
 hr.solid {
@@ -97,4 +189,20 @@ hr.solid {
     grid-column: 2;
     grid-row: 1;
     text-align: left;
+}
+
+@media only screen and (min-width: 600px) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
 }
