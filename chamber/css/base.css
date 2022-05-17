@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-p, h1, h2, h3, h4, ul, li, a {
+p, h1, h2, ul, li, a {
     font-size: small;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: "Poppins";
 }
 
@@ -22,7 +22,7 @@ h1, h2, h3 {
     grid-row: 1/3;
     grid-column: 1;
     min-width: 50px;
-    width: 75%;
+    width: 60%;
     height: auto;
     border-radius: 25px;
     padding: 5%;
@@ -33,7 +33,7 @@ h1, h2, h3 {
     text-align: center;
     padding:50% 0 50% 0;
 }
-.logo_title h4 {
+.logo_title h1 {
     grid-column: 1/3;
     grid-row: 2;
 }
@@ -151,7 +151,7 @@ footer {
     display: flex;
     flex-direction: column;
 }
-footer p, h2, h3 {
+footer p, h1, h2 {
     text-align: center;
     color: white;
     font-family: "Roboto";
@@ -179,7 +179,7 @@ hr.solid {
     text-align: left;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 992px) {
 	.navigation {
 		display: flex;
 	}
