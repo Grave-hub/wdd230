@@ -4,6 +4,10 @@ const button = document.querySelector('button');
 
 button.addEventListener('click', () => {
     const myItem = input.value;
+    if (myItem == null || myItem == ""){
+        alert("Can't submit a blank scripture!");
+        return false;
+    }
     input.value = '';
 
     const listItem = document.createElement('li');
@@ -18,7 +22,7 @@ button.addEventListener('click', () => {
 
     listBtn.addEventListener('click', () => {
     list.removeChild(listItem);
-    });
-
     input.focus();
+    });
+    
 });
