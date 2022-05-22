@@ -61,6 +61,8 @@ a {
 }
 
 .navigation {
+    display: flex;
+    flex-direction: row;
 	list-style: none;
 	padding: 0;
     grid-column: 3;
@@ -414,6 +416,7 @@ button {
 @media only screen and (min-width: 992px) {
 	.navigation {
 		display: flex;
+        flex-direction: row;
 	}
 	.navigation li {
 		display: block; /* change state in small view */
