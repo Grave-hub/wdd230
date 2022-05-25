@@ -16,3 +16,16 @@ if(today === 1 || today === 2) {
 else {
     dayAnnounce.style.display = "none";
 }
+
+function windowAdjust() {
+    const width = window.innerWidth;
+    if (width <= 300) {
+        document.getElementById('screenWidth').textContent = "Small sized image";
+    } else if (width <= 600) {
+        document.getElementById('screenWidth').textContent = "Medium sized image";
+    } else if (width <= 900) {
+        document.getElementById('screenWidth').textContent = "Large sized image";
+    }
+}
+
+window.addEventListener('resize', windowAdjust);

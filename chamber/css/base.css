@@ -179,14 +179,38 @@ main {
 }
 
 .hero {
-    background-image: url("/wdd230/chamber/images/superstition.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url("/wdd230/chamber/images/superstition.webp"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    /* margin: 2% auto; */
     margin: 2% auto;
+    padding: 1%;
+    float: left;
 }
  
 .hero p {
     background-color: #1e5871;
+}
+
+picture {
+    z-index: -1;
+    width: 100%;
+    margin: auto;
+    display: block;
+    height: 100%;
+}
+
+picture img {
+    width: 100%;
+}
+
+.width_checker {
+    background-color: #1e5871;
+    border: solid 4px #05b2dc;
+    color: white;
+    padding: 3%;
+    position: relative;
+    align-content: center;
 }
 
 .away_link {

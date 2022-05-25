@@ -66,12 +66,26 @@
             <h2>Join the Chamber of Commerce and meet over 100+ local business leaders in the city of Apache Junction</h2>
             <p></p>
         </div>
-        <div class="hero"><p>Come and see what Apache Junction has in store for you!</p><div class="away_link"><button class="learn-more">
-            <span class="circle" aria-hidden="true">
-            <span class="icon arrow"></span>
-            </span>
-            <span class="button-text">Learn More</span>
-          </button></div></div>
+        <div class="hero">
+            <!-- <p>Come and see what Apache Junction has in store for you!</p> -->
+            <picture class="photoA">
+                <source media="(max-width: 200px)" srcset="/wdd230/chamber/images/stock200small.jpg">
+                <source media="(max-width: 500px)" srcset="/wdd230/chamber/images/stock500medium.jpg">
+                <source media="(max-width: 800px)" srcset="/wdd230/chamber/images/stock800large.jpg">
+                <img src="/wdd230/chamber/images/stock1100.jpg" alt="stock image">
+            </picture>
+            <div class="away_link">
+                <button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Learn More</span>
+                </button>
+            </div>
+            <div class="width_checker">
+                <span id="screenWidth"></span>
+            </div>
+        </div>
         <div class="news">
             <h1>Weekly News</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
