@@ -62,11 +62,14 @@ a {
 
 .navigation {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 	list-style: none;
 	padding: 0;
     grid-column: 3;
     grid-row: 1/-1;
+    z-index: 1;
+    margin: auto;
+    text-align: center;
 }
 .navigation li:first-child {
 	display: block;
@@ -148,6 +151,10 @@ header a {
     text-align: center;
     padding: 1rem;
     background-color: #1e5871;
+    border: solid 8px #05b2dc;
+    color: white;
+    font-family: "Poppins";
+    font-weight: bolder;
 }
 main {
     display: flex;
