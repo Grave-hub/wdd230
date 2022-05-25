@@ -36,6 +36,10 @@
 		padding: 1%;
 		max-width: 40px;
 	}
+	.navigation {
+		display: flex;
+		flex-direction: row;
+	}
 	main {
 		display: grid;
     	grid-template-columns: repeat(5, 1fr);
