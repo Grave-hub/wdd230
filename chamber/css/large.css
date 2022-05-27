@@ -103,18 +103,17 @@
 		opacity: 85%;
 	}
 
-	picture {
+	.photoA picture {
 		z-index: -1;
-		width: 100%;
-		margin: 0 2%;
+		margin: auto;
+		padding: 2%;
 		display: block;
-		height: 100%;
 		grid-column: 1/-1;
-		grid-row: 1/-1;
 	}
 	
-	picture img {
-		width: 50%;
+	.hero picture img {
+		width: 60%;
+		float: left;
 	}
 
 	.hero p {
