@@ -176,6 +176,10 @@ main {
 }
 
 .event a {
+    color: white;
+    font-weight: bold;
+}
+.event a:hover {
     color: #05b2dc;
 }
 
@@ -241,6 +245,10 @@ picture img {
     padding: 2%;
     margin: auto;
     width: 40%;
+}
+.join a:hover {
+    background-color: #05b2dc;
+    color: black;
 }
 .join a {
     font-size: larger;
