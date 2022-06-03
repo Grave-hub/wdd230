@@ -1,0 +1,39 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(54, 52, 52);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+main h1 a {
+    text-decoration: none;
+    color: white;
+}
+h1 {
+    font-family: monospace;
+    color: white;
+}
+picture {
+    margin: 3%;
+}
+img {
+    border:solid 5px rgb(59, 173, 59);
+}
+main img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+main img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+}

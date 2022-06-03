@@ -15,20 +15,7 @@
 	.logo_title h1 {
 		font-size: medium;
 	}
-	.logo_title {
-		display: grid;
-		grid-row: 1/-1;
-	}
-	
-	.logo_title img {
-		grid-column: 1;
-		grid-row: 1/-1;
-		min-width: 100px;
-	}
-	
-	.logo_title p {
-		grid-column: 2;
-	}
+
 	.icons {
 		grid-column: 3;
 		grid-row: 1;
