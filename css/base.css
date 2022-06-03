@@ -33,6 +33,10 @@ main ul {
 }
 main ul a {
     color: white;
+    text-decoration: none;
+}
+main ul a:hover {
+    color: #403759;
 }
 
 hr.solid {

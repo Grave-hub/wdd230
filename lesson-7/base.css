@@ -33,7 +33,7 @@ main img {
     transition: filter 0.5s;
 }
 footer {
-    display: flex;
-    flex-direction: row;
+    display:flexbox;
+    text-align: center;
     margin: 3%;
 }
