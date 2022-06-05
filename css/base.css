@@ -74,7 +74,10 @@ header img {
     height: auto;
     border-radius: 25px;
 }
-
+header img:hover {
+    transform: scale(1.1);
+    margin: 3%;
+}
 footer {
     text-align: center;
     margin: 1em auto;
@@ -89,4 +92,17 @@ footer p {
     color: white;
     font-family: "Poppins";
     font-weight: bolder;
+}
+#main-vid {
+    padding: 5%;
+}
+#main-vid h1 {
+    font-family: "Poppins";
+    background-color: #403759;
+    padding: 2%;
+    border-radius: 25px;
+}
+#main-vid video {
+    width: 100%;
+    height: auto;
 }
