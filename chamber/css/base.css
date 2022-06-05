@@ -13,7 +13,6 @@ h1, h2 {
 }
 
 .logo_title {
-    display: flexbox;
     grid-row: 1/-1;
 }
 .logo_title img {
@@ -325,6 +324,58 @@ footer hr.solid {
 .spotlight3 {
     display: none;
 }
+#demographics {
+    display: flex;
+    grid-column: 1/-1;
+    background-image: url("/wdd230/chamber/images/aj-town.jpg");
+    border-radius: 25px;
+    padding: 2%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+    margin: 2% 0 0 0;
+}
+#demo-info {
+    background-color: #1e5871;
+    padding: 2%;
+    border-radius: 25px;
+    text-align: center;
+}
+#demo-info h1 {
+    text-decoration: underline;
+}
+#demographics img {
+    display: none;
+}
+.gallery { 
+    grid-row: 1/-1;
+    grid-column: 1/-1;
+}
+.galimg {
+    width: auto;
+    margin: 2% auto 2% auto;
+    text-align: center;
+    border: solid 3px #05b2dc;
+    border-radius: 25px;
+    padding: 2%;
+}
+.galimg img {
+    width: 50%;
+}
+.galimg p {
+    margin: 3%;
+}
+#user-announcement {
+    color: white;
+    background-color: #1e5871;
+    border: 5px solid #05b2dc;
+    padding: 2%;
+    text-align: center;
+}
+#user-announcement p {
+    font-family: "Poppins";
+    font-weight: bolder;
+}
 button {
     position: relative;
     display: inline-block;
@@ -337,32 +388,6 @@ button {
     font-family: inherit;
     text-align: center;
 }
-
-.gallery {
-    width: 100%;
-    display: grid;
-    grid-template-areas: 
-    "img1 img2 img3 img4 img5 img6";
-}
-.img1 {
-    grid-area: img1;
-}
-.img2 {
-    grid-area: img2;
-}
-.img3 {
-    grid-area: img3;
-}
-.img4 {
-    grid-area: img4;
-}
-.img5 {
-    grid-area: img5;
-}
-.img6 {
-    grid-area: img6;
-}
-   
    button.learn-more {
     width: 10rem;
     height: auto;

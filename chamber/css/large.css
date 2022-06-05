@@ -163,7 +163,25 @@
 		line-height: 200%;
 		font-size: small;
 	}
-	
+	.gallery {
+		display: flex;
+		flex-direction: row;
+		grid-row: 1/-1;
+		grid-column: 1/-1;
+	}
+	.galimg {
+		text-align: center;
+		margin: 1%;
+		width: 20%
+	}
+	.galimg img {
+		object-fit: cover;
+		vertical-align: bottom;
+		width: 100%;
+	}
+	.galimg p {
+		padding: 2%;
+	}
 	footer {
 		display: grid;
     	grid-template-columns: 1fr 1fr 1fr;

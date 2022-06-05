@@ -46,14 +46,29 @@
 <p id="announcement">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
 <main>
     <div class="gallery">
-        <img class="img1" alt="image 1" src=""/>
-        <img class="img2" alt="image 2" src=""/>
-        <img class="img3" alt="image 3" src=""/>
-        <img class="img4" alt="image 4" src=""/>
-        <img class="img5" alt="image 5" src=""/>
-        <img class="img6" alt="image 6" src=""/>
+        <div class="galimg"><img alt="mountain bike on mountain" src="https://via.placeholder.com/300x400" data-src="images/mtn-bike.jpg"/><h1>Mountain Biking</h1><p>Come and ride along one of our hundreds of local mountain biking trails taking in the beautiful desert landscape</p></div>
+        <div class="galimg"><img alt="picture of superstition mountains" src="https://via.placeholder.com/300x400" data-src="images/sunset-mtn.jpg"/><h1>Outdoor Recreation</h1><p>Explore over 10,000 acres of diverse natural Arizona wilderness with our many trail systems designed for all ages and skill levels</p></div>
+        <div class="galimg"><img alt="swimming pool wiht slides" src="https://via.placeholder.com/300x400" data-src="images/aquatic-center.jpg"/><h1>Local Acquatic Center</h1><p>Visit our local water park owned by the city with waterslides, splash pads, and a diving area</p></div>
+        <div class="galimg"><img alt="old town with buildings" src="https://via.placeholder.com/300x400" data-src="images/goldfield.jpg"/><h1>Come and see a ghost town!</h1><p>The local ghost town of Goldfield is a popular tourist attraction with activities for everyone</p></div>
+        <div class="galimg"><img alt="river in front of mountains" src="https://via.placeholder.com/300x400" data-src="images/salt-river.jpg"/><h1>Tube down the Salt River</h1><p>With summer days regularly in the 100's, a relaxing tubing trip down the Salt River is a must for visitors near Apache Junction</p></div>
+    </div>
+    <div id="demographics">
+        <div id="demo-info">
+            <h1>A little bit about Apache Junction</h1>
+            <br>
+            <p>Current Population: 41,863 people</p>
+            <p>(over a third are retired!)</p>
+            <br>
+            <p>Incorporated: November 24, 1978</p>
+            <br>
+            <p>Size: 22,450 Acres</p>
+        </div>
+        <img src="https://via.placeholder.com/300x400" data-src="images/aj-town.jpg" alt="Apache Junction town hall">
     </div>
 </main>
+<div id="user-announcement">
+    <p>Time since last visit: <span id="userVisit"></span> day(s)</p>
+</div>
     <footer>
         <img src="images/apachejunction.webp" alt="logo of apache junnction with a cactus">
         <div id="address"><h1>Apache Junction Chamber of Commerce</h1><p>575 N. Idaho Rd. 600</p><p>Apache Junction, AZ 85119</p></div>
@@ -63,8 +78,9 @@
         <p> &copy;<span id="year"></span> Apache Junction C.O.C. | Adam Gravy | WDD 230 Project | Last updated: <span id="last_updated"></span></p>
         </div>
     </footer>
-    <script src="js/windchill.js" defer></script>
+    <script src="/wdd230/lesson-7/main.js" defer></script>
     <script src="js/year.js" defer></script>
     <script src="js/menu.js" defer></script>
+    <script src="js/localstore.js" defer></script>
 </body>
 </html>
