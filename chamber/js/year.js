@@ -16,7 +16,9 @@ if(today === 1 || today === 2) {
 else {
     dayAnnounce.style.display = "none";
 }
+const formDate = document.getElementById('join-form-date');
 
+formDate.value = d;
 // Window adjustment trial
 // function windowAdjust() {
 //     const width = window.innerWidth;

@@ -376,6 +376,104 @@ footer hr.solid {
     font-family: "Poppins";
     font-weight: bolder;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+form label.sbs {
+    display: block;
+}
+fieldset {
+    width: 100%;
+}
+legend {
+    font-size: large;
+    font-weight: bolder;
+}
+#joinForm {
+    border: 3px solid #05b2dc;
+    border-radius: 1rem;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+#joinForm label {
+    width: 100%;
+    max-width: 18rem;
+    padding: 1%;
+    margin: auto;
+}
+#joinForm input.submitBtn {
+    max-width: 15rem;
+    margin: 3% auto;
+    padding: 4%;
+    border-radius: 1rem;
+    border: 2px solid #05b2dc;
+    background-color: #1e5871;
+    color: #fff;
+}
+#memberLevel input.submitBtn {
+    max-width: 13rem;
+    padding: 3%;
+    border-radius: 1rem;
+    border: 2px solid #05b2dc;
+    background-color: #1e5871;
+    color: white;
+    margin: auto;
+}
+#memberLevel {
+    border: 5px solid #05b2dc;
+    border-radius: 2rem;
+    margin: auto;
+    padding: 0 1% 5% 0;
+    display: flex;
+    flex-direction: column;
+}
+#ironLvl {
+    border-radius: 2rem;
+    color: black;
+    margin: 2%;
+    width: auto;
+}
+#memberLevel label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+    border: 3px solid #05b2dc;
+    border-radius: 1rem;
+}
+#tellMore input {
+    padding: 2%;
+    color: white;
+    background-color: #1e5871;
+    border: 3px solid #05b2dc;
+    border-radius: 2rem;
+    margin: 3% auto auto auto;
+    max-width: 10rem;
+}
+#tellMore textarea {
+    margin: 0 3% 0 3%;
+}
+input.larger {
+    transform: scaleX(2.5) scaleY(2.5);
+    margin: 5%;
+}
+#thankYou {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    text-align: center;
+    background-image: url(/wdd230/chamber/images/aj-town.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+}
+#thankYou h1 {
+    background-color: #1e5871;
+    padding: 4%;
+}
 button {
     position: relative;
     display: inline-block;
