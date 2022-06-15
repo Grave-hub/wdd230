@@ -394,41 +394,31 @@ legend {
 #joinForm {
     border: 3px solid #05b2dc;
     border-radius: 1rem;
-    padding: 2%;
+    padding: 3%;
     display: flex;
     flex-direction: column;
+}
+#memberLvlJoin {
+    width: 100%;
+    border: none;
 }
 #joinForm label {
     width: 100%;
     max-width: 18rem;
-    padding: 1%;
-    margin: auto;
+    padding: 2%;
+    margin: auto auto auto 1%;
 }
-#joinForm input.submitBtn {
-    max-width: 15rem;
-    margin: 3% auto;
-    padding: 4%;
-    border-radius: 1rem;
-    border: 2px solid #05b2dc;
-    background-color: #1e5871;
-    color: #fff;
-}
-#memberLevel input.submitBtn {
-    max-width: 13rem;
-    padding: 3%;
-    border-radius: 1rem;
-    border: 2px solid #05b2dc;
-    background-color: #1e5871;
-    color: white;
-    margin: auto;
-}
+
 #memberLevel {
     border: 5px solid #05b2dc;
     border-radius: 2rem;
     margin: auto;
-    padding: 0 1% 5% 0;
+    padding: 0;
     display: flex;
     flex-direction: column;
+}
+#memberLevel legend {
+    margin: 2%;
 }
 #ironLvl {
     border-radius: 2rem;
@@ -451,14 +441,15 @@ legend {
     background-color: #1e5871;
     border: 3px solid #05b2dc;
     border-radius: 2rem;
-    margin: 3% auto auto auto;
+    margin: auto;
     max-width: 10rem;
 }
 #tellMore textarea {
-    margin: 0 3% 0 3%;
+    margin: auto;
+    width: 100%;
 }
 input.larger {
-    transform: scaleX(2.5) scaleY(2.5);
+    transform: scaleX(2) scaleY(2);
     margin: 5%;
 }
 #thankYou {

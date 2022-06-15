@@ -54,29 +54,27 @@
                 <label class="top">Email Address*: <input type="email" name="emailAddress" required placeholder="ex. @gmail.com"></label>
                 <label class="top">Business Position: <input type="text" name="busPosition" pattern="[-A-Za-z\s]{7,}"></label>
                 <label class="top">Phone Number*: <input type="tel" name="phoneNum" required></label>
-                <input type="submit" value="Join Now" class="submitBtn">
                 <input type="hidden" id="join-form-date" name="datetime" value="">
             </fieldset>
-            <div id="memberLevel">
-                <h1>Find the membership level that works for you!</h1>
-                <label class="sbs"><input type="checkbox" class="larger" name="ironLvl">Iron Level: Our free membership for local non-profits. 
+            <fieldset id="memberLevel">
+                <legend>Find the membership level that works for you!</legend>
+                <label class="sbs"><input type="radio" class="larger" name="ironLvl">Iron Level: Our free membership for local non-profits. 
                     Get acces to local meetings, business directory resources, 
                     and direct modes of communication with the town and local businesses. <br><br> Free for NPG </label>
-                <label class="sbs"><input type="checkbox" class="larger" name="ironLvl">Bronze Level: Our entry level membership for local
-                     businesses. Acces local meetings, business directory resources, and get direct communication with the town of Apache Junction and local businesses.
+                <label class="sbs"><input type="radio" class="larger" name="ironLvl">Bronze Level: Our entry level membership for local
+                    businesses. Acces local meetings, business directory resources, and get direct communication with the town of Apache Junction and local businesses.
                 <br><br>$26.00 per Month</label>
-                <label class="sbs"><input type="checkbox" class="larger" name="ironLvl">Silver Level: All the perks included in the Bronze level and more! Get notified of local
+                <label class="sbs"><input type="radio" class="larger" name="ironLvl">Silver Level: All the perks included in the Bronze level and more! Get notified of local
                     events, government contracts, and potential investors in the area. Includes name added to our Silver level donors list on site.
                 <br><br>$42.00 per Month</label>
-                <label class="sbs"><input type="checkbox" class="larger" name="ironLvl">Gold Level: You want premium service so that is what you'll get! All
+                <label class="sbs"><input type="radio" class="larger" name="ironLvl">Gold Level: You want premium service so that is what you'll get! All
                     the benefite of the Silver level, as well as sponsor status, and your name being prominently displayed as a town partner. 
                 <br><br>$64.00 per Month</label>
-                <input type="submit" value="Become a member" class="submitBtn">
-            </div>
+            </fieldset>
         </form>
         <div id="tellMore"> 
             <form action="/wdd230/chamber/thankyou.html">
-                <h1><label for="businessTell">Tell us more about your business</label></h1>
+                <p><label for="businessTell">Tell us more about your business</label></p>
                 <textarea id="businessTell" name="moreAbout" rows="4" cols="50" placeholder="T2 Pest Service is the best because..."></textarea>
                 <br>
                 <input type="submit">

@@ -165,9 +165,17 @@
 	form {
 		grid-column: 1/-1;
 		grid-row: 1/-1;
+		padding: 1%;
+		width: 100%;
 	}
 	#memberLevel {
 		margin: 2%;
+		padding: 4%;
+	}
+	#memberLevel label {
+		font-size: .8rem;
+		margin: 1%;
+		width: 100%;
 	}
 	#joinForm label {
 		width: 100%;
@@ -176,7 +184,7 @@
 		margin: 0 auto 0 0;
 	}
 	#tellMore {
-		margin: 0 0 0 25%;
-		text-align: center;
+		grid-column: 1/-1;
+		margin: 1% auto;
 	}
 }
