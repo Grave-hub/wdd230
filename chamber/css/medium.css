@@ -169,7 +169,7 @@
 		width: 100%;
 	}
 	#memberLevel {
-		margin: 2%;
+		margin: auto;
 		padding: 4%;
 	}
 	#memberLevel label {
@@ -185,6 +185,7 @@
 	}
 	#tellMore {
 		grid-column: 1/-1;
+		grid-row: 2;
 		margin: 1% auto;
 	}
 }

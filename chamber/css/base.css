@@ -380,6 +380,7 @@ form {
     display: flex;
     flex-direction: column;
     margin: auto;
+    gap: 2% 2% 2%;
 }
 form label.sbs {
     display: block;
@@ -434,6 +435,16 @@ legend {
     padding: 1%;
     border: 3px solid #05b2dc;
     border-radius: 1rem;
+}
+#tellMore {
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+#tellMore p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 1% auto 2% auto;
 }
 #tellMore input {
     padding: 2%;
