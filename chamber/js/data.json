@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "imageurl" : "/wdd230/chamber/images/business/rhfordlogo.webp",
+            "name" : "Rober Horne Ford",
+            "address" : "3400 S. Tomahawk Rd., Apache Junction, AZ 85119",
+            "phonenumber" : "480-474-2500",
+            "sitelink" : "https://www.roberthorneford.com/",
+            "memberlvl" : "gold"
+        },
+        {
+            "imageurl" : "/wdd230/chamber/images/business/rhfordlogo.webp",
+            "name" : "Lost Dutchman Marathon Inc",
+            "address" : "115 N. Apache Trail Suite A, Apache Junction, AZ 85119",
+            "phonenumber" : "480-983-1500",
+            "sitelink" : "https://lostdutchmanmarathon.org/",
+            "memberlvl" : "iron"
+        },
+        {
+            "imageurl" : "/wdd230/chamber/images/business/ajindependent.webp",
+            "name" : "Apache Junction Independent",
+            "address" : "17220 N Boswell Blvd, Suite 101, Sun City, AZ 85373",
+            "phonenumber" : "623-972-6101",
+            "sitelink" : "https://www.yourvalley.net/apache-junction-independent/",
+            "memberlvl" : "bronze"
+        },
+        {
+            "imageurl" : "/wdd230/chamber/images/business/gccomputer.webp",
+            "name" : "Gold Canyon Computer Repair",
+            "address" : "9012 E. Shooting Star Drive, Gold Canyon, AZ 85118",
+            "phonenumber" : "480-262-9598",
+            "sitelink" : "http://www.gccrepair.com/",
+            "memberlvl" : "bronze"
+        },
+        {
+            "imageurl" : "/wdd230/chamber/images/business/jticonstruction.webp",
+            "name" : "JTI Construciton LLC",
+            "address" : "1678 W Superstition Blvd, Ste #2, Apache Junction, AZ 85120",
+            "phonenumber" : "480-983-3495",
+            "sitelink" : "http://www.jticonstruction.com/",
+            "memberlvl" : "silver"
+        },
+        {
+            "imageurl" : "/wdd230/chamber/images/business/pinalcountyfcu.webp",
+            "name" : "Pinal County Federal Credit Union",
+            "address" : "290 S. Phelps Drive, Apache Junction, AZ 85120",
+            "phonenumber" : "520-381-3100",
+            "sitelink" : "https://www.pinalcountyfcu.com/",
+            "memberlvl" : "gold"
+        },
+        {
+            "imageurl" : "/wdd230/chamber/images/business/dutchmanrealty.webp",
+            "name" : "Lost Dutchman Realty",
+            "address" : "672 S. Ironwood Dr., Apache Junction, AZ 85120",
+            "phonenumber" : "480-982-8000",
+            "sitelink" : "https://www.lostdutchmanrealty.com/",
+            "memberlvl" : "silver"
+        },
+        {
+            "imageurl" : "/wdd230/chamber/images/business/apacheresort.webp",
+            "name" : "Apache Gold Casino Resort & Golf",
+            "address" : "777 Geronimo Springs Blvd, San Carlos, AZ 85550",
+            "phonenumber" : "928-475-7800",
+            "sitelink" : "https://apache-gold-casino.com/",
+            "memberlvl" : "bronze"
+        },
+        {
+            "imageurl" : "wdd230/chamber/images/business/mountainamerica.webp",
+            "name" : "Mountain American Credit Union",
+            "address" : "22024 S Ellsworth Loop Road, Queen Creek, AZ 85142",
+            "phonenumber" : "480-372-2531",
+            "sitelink" : "https://www.macu.com/",
+            "memberlvl" : "gold"
+        }
+    ]
+}
