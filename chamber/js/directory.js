@@ -1,4 +1,4 @@
-const businessURL = 
+const businessURL = ('')
 async function getBusinesses() {
     fetch("data.json")
     .then (response => response.json())
