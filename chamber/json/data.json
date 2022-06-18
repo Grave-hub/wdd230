@@ -1,5 +1,5 @@
 {
-    "businesses": [
+    "businesses":[
         {
             "imageurl" : "/wdd230/chamber/images/business/rhfordlogo.webp",
             "name" : "Rober Horne Ford",
@@ -9,7 +9,7 @@
             "memberlvl" : "gold"
         },
         {
-            "imageurl" : "/wdd230/chamber/images/business/rhfordlogo.webp",
+            "imageurl" : "/wdd230/chamber/images/business/dutchmanmarathon.webp",
             "name" : "Lost Dutchman Marathon Inc",
             "address" : "115 N. Apache Trail Suite A, Apache Junction, AZ 85119",
             "phonenumber" : "480-983-1500",
@@ -65,7 +65,7 @@
             "memberlvl" : "bronze"
         },
         {
-            "imageurl" : "wdd230/chamber/images/business/mountainamerica.webp",
+            "imageurl" : "/wdd230/chamber/images/business/mtnamerica.webp",
             "name" : "Mountain American Credit Union",
             "address" : "22024 S Ellsworth Loop Road, Queen Creek, AZ 85142",
             "phonenumber" : "480-372-2531",

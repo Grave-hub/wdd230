@@ -476,6 +476,10 @@ input.larger {
     background-color: #1e5871;
     padding: 4%;
 }
+.cards {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+}
 button {
     position: relative;
     display: inline-block;
@@ -493,7 +497,7 @@ button {
     height: auto;
     text-align: center;
     vertical-align: middle;
-   }
+}
    
    button.learn-more .circle {
     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
