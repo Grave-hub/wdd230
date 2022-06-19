@@ -48,7 +48,6 @@
 		grid-column: 1/-1;
 		grid-row: 1;
 		width: fit-content;
-		max-height: 100%;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr 1fr;
@@ -169,13 +168,17 @@
 		width: 100%;
 	}
 	#memberLevel {
-		margin: auto;
+		margin: 1% 10% 2% auto;
 		padding: 4%;
 	}
 	#memberLevel label {
-		font-size: .8rem;
+		font-size: .9rem;
 		margin: 1%;
 		width: 100%;
+	}
+	#joinForm {
+		margin: 1% auto 1% 1%;
+		width: 40%;
 	}
 	#joinForm label {
 		width: 100%;
@@ -187,5 +190,29 @@
 		grid-column: 1/-1;
 		grid-row: 2;
 		margin: 1% auto;
+	}
+	#mainDirectory {
+		grid-column: 1/-1;
+		grid-row: 1/-1;
+		width: 100%;
+	}
+	.cards section p {
+		font-size: 1rem;
+	}
+	.cards section {
+		margin: 3%;
+	}
+	.cards h1 {
+		font-size: 1.4rem;
+	}
+	article.grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+	}
+	.grid section img {
+		background-color: white;
+		max-width: 200px;
+		width: 50%;
+		box-shadow: 3px 3px #05b2dc;
 	}
 }

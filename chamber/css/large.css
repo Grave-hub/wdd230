@@ -37,16 +37,23 @@
 		grid-row: 1;
 		background-color: #1e5871;
 		border: solid 8px #05b2dc;
-		padding: 2%;
-		max-width: 100%;
+		padding: 4%;
 	}
-
+	.event p {
+		font-size: .9rem;
+	}
+	.event a {
+		font-size: .9rem;
+	}
+	.event h1, h2 {
+		font-size: 1rem;
+	}
 	.weather {
 		grid-column: 1;
 		grid-row: 2;
 		background-color: #1e5871;
 		border: solid 8px #05b2dc;
-		padding: 2%;
+		padding: 1%;
 		min-width: 100%;
 	}
 	.weather h1 {
@@ -62,17 +69,21 @@
 		grid-row: 3;   
 		background-color: #1e5871;
 		border: solid 8px #05b2dc;
+		margin: auto;
 	}
 	.join button {
-		min-width: 90%;
+		min-width: 80%;
 		padding: 1%;
 		margin: 3%;
 	}
 	.join a {
-		font-size: x-large;
+		font-size: large;
 		font-weight: bold;
 		padding: 4%;
 		margin: 3%;
+	}
+	.join p {
+		font-size: 1.1rem;
 	}
 	
 	.hero {
@@ -122,17 +133,16 @@
 	.spotlights {
 		display: flex;
 		flex-direction: column;
-		gap: 5%;
-		grid-column: 5;
+		/* gap: 5%; */
+		grid-column: 5/-1;
 		grid-row: 1/-1;
 		background-color: #1e5871;
-		border: solid 8px #05b2dc;
+		border: solid 5px #05b2dc;
 		padding: 2%;
-		min-width: 100%;
-		max-height: 100%;
+
 	}
 	.spotlights svg {
-		max-height: 100px;
+		max-width: 200px;
 	}
 
 	.spotlight1 {
@@ -141,7 +151,6 @@
 		padding: 2%;
 		margin: 0;
 		text-align: center;
-		line-height: 200%; 
 		font-size: small;
 	}
 	.spotlight2 {
@@ -150,7 +159,6 @@
 		padding: 2%;
 		margin: 0%;
 		text-align: center; 
-		line-height: 200%;
 		font-size: small; 
 	}
 	.spotlight3 {
@@ -160,7 +168,6 @@
 		padding: 2%;
 		margin: 0%;
 		text-align: center;   
-		line-height: 200%;
 		font-size: small;
 	}
 	.gallery {
@@ -202,9 +209,10 @@
 		grid-row: 1/-1;
 	}
 	#joinForm {
-		width: 90%;
+		width: 75%;
 		grid-column: 1;
 		grid-row: 1;
+		height: 80%;
 	}
 	#memberLevel {
 		grid-row: 1;

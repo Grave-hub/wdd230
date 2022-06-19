@@ -48,9 +48,9 @@
         <form method="get" action="/wdd230/chamber/thankyou.html">
             <fieldset id="joinForm">
                 <legend>Join your local Chamber!</legend>
-                <label class="top">First Name*: <input type="text" name="firstName" required></label>
-                <label class="top">Last Name*: <input type="text" name="lastName" required></label>
-                <label class="top">Business Name*: <input type="text" name="busName" required></label>
+                <label class="top">First Name*: <input type="text" name="firstName" required placeholder="John"></label>
+                <label class="top">Last Name*: <input type="text" name="lastName" required placeholder="Doe"></label>
+                <label class="top">Business Name*: <input type="text" name="busName" required placeholder="Gold Canyon Painters"></label>
                 <label class="top">Email Address*: <input type="email" name="emailAddress" required placeholder="ex. @gmail.com"></label>
                 <label class="top">Business Position: <input type="text" name="busPosition" pattern="[-A-Za-z\s]{7,}"></label>
                 <label class="top">Phone Number*: <input type="tel" name="phoneNum" required></label>
@@ -58,17 +58,17 @@
             </fieldset>
             <fieldset id="memberLevel">
                 <legend>Find the membership level that works for you!</legend>
-                <label class="sbs"><input type="radio" class="larger" name="ironLvl">Iron Level: Our free membership for local non-profits. 
+                <label class="sbs"><input type="radio" class="larger" name="ironLvl" value="1">Iron Level: Our free membership for local non-profits. 
                     Get acces to local meetings, business directory resources, 
                     and direct modes of communication with the town and local businesses. <br><br> Free for NPG </label>
-                <label class="sbs"><input type="radio" class="larger" name="ironLvl">Bronze Level: Our entry level membership for local
+                <label class="sbs"><input type="radio" class="larger" name="bronzeLvl" value="2">Bronze Level: Our entry level membership for local
                     businesses. Acces local meetings, business directory resources, and get direct communication with the town of Apache Junction and local businesses.
                 <br><br>$26.00 per Month</label>
-                <label class="sbs"><input type="radio" class="larger" name="ironLvl">Silver Level: All the perks included in the Bronze level and more! Get notified of local
+                <label class="sbs"><input type="radio" class="larger" name="silverLvl" value="3">Silver Level: All the perks included in the Bronze level and more! Get notified of local
                     events, government contracts, and potential investors in the area. Includes name added to our Silver level donors list on site.
                 <br><br>$42.00 per Month</label>
-                <label class="sbs"><input type="radio" class="larger" name="ironLvl">Gold Level: You want premium service so that is what you'll get! All
-                    the benefite of the Silver level, as well as sponsor status, and your name being prominently displayed as a town partner. 
+                <label class="sbs"><input type="radio" class="larger" name="goldLvl" value="4">Gold Level: You want premium service so that is what you'll get! All
+                    the benefits of the Silver level, as well as sponsor status, and your name being prominently displayed as a town partner. 
                 <br><br>$64.00 per Month</label>
             </fieldset>
             <div id="tellMore"> 

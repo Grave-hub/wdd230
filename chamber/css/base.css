@@ -380,7 +380,6 @@ form {
     display: flex;
     flex-direction: column;
     margin: auto;
-    gap: 2% 2% 2%;
 }
 form label.sbs {
     display: block;
@@ -413,7 +412,7 @@ legend {
 #memberLevel {
     border: 5px solid #05b2dc;
     border-radius: 2rem;
-    margin: auto;
+    margin: 2% auto 2% auto;
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -431,10 +430,11 @@ legend {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 1%;
+    margin: 2%;
     padding: 1%;
     border: 3px solid #05b2dc;
     border-radius: 1rem;
+    font-size: .9rem;
 }
 #tellMore {
     display: flex;
@@ -476,10 +476,76 @@ input.larger {
     background-color: #1e5871;
     padding: 4%;
 }
-.cards {
-    grid-column: 1/-1;
-    grid-row: 1/-1;
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #bbb;
+	text-align: center;
 }
+.menu button {
+	padding: 1rem;
+}
+article.list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+article.list section{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+.grid section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
+    border: 4px solid #05b2dc;
+    border-radius: 2%;
+}
+.list section img {
+    display: none;
+}
+.list section p {
+    padding: 1%;
+}
+.grid section p {
+    font-size: .8rem;
+}
+.grid h1 {
+    font-size: 1.1rem;
+}
+section a:hover {
+    color: #05b2dc;
+    transform: scale(2);
+}
+div.directorymenu {
+    max-width: 75px;
+    display: grid;
+    padding: 1%;
+}
+div.directorymenu button {
+    text-align: center;
+    color: white;
+    background-color: #1e5871;
+    display: block;
+    border: 2px solid #05b2dc;
+    padding: 3%;
+    width: auto;
+}
+#gridselect, #listselect {
+    padding: 1%;
+    font-size: 1.1rem;
+}
+div.directorymenu button:hover {
+    color: #1e5871;
+    background-color: #05b2dc;
+    font-weight: bold;
+}
+
 button {
     position: relative;
     display: inline-block;
