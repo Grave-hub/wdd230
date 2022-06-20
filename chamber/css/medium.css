@@ -215,4 +215,8 @@
 		width: 50%;
 		box-shadow: 3px 3px #05b2dc;
 	}
+	#weather-api {
+		grid-column: 1/-1;
+		grid-row: 1/-1;
+	}
 }

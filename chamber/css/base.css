@@ -545,6 +545,27 @@ div.directorymenu button:hover {
     background-color: #05b2dc;
     font-weight: bold;
 }
+#weather-api h1, p, h2 {
+    font-family: "Roboto";
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    background-color: #1e5871;
+}
+#weather-api {
+    width: 100%;
+    background-color: #1e5871;
+    display: flex;
+    flex-direction: column;
+    border: #05b2dc 8px solid;
+    padding: 2% auto 0 auto;
+}
+#weather-api figure {
+    margin: 2% auto;
+    padding: 1%;
+    border: #05b2dc 3px solid;
+    border-radius: 2%;
+}
 
 button {
     position: relative;
