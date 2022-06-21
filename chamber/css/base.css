@@ -5,11 +5,14 @@
 }
 
 p, h1, h2, ul, li, a {
-    font-size: small;
+    font-size: 1rem;
 }
 
 h1, h2 {
     font-family: "Poppins";
+}
+#announcement p{
+    font-size: .5rem;
 }
 
 .logo_title {
@@ -175,6 +178,7 @@ main {
  
 .hero p {
     background-color: #1e5871;
+    padding: 1%;
 }
 
 .away_link {
@@ -184,14 +188,14 @@ main {
     padding: 2%;
     text-decoration: none;
     border-radius: 25px;
+    margin: 2% auto auto auto;
 }
 
 .join {
-    text-align: center;
     padding: 2%;
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.2rem;
     background-color: #1e5871;
     border: solid 8px #05b2dc;
 }
@@ -199,13 +203,11 @@ main {
     text-decoration: none;
     border: 3px solid #05b2dc;
     border-radius: 25px;
-    padding: 2%;
-    margin: auto;
-    width: 40%;
 }
 .join a:hover {
     background-color: #05b2dc;
     color: black;
+    transform: scale(1.1);
 }
 .join a {
     font-size: larger;
@@ -213,8 +215,7 @@ main {
     border: solid 3px #05b2dc;
     border-radius: 25px;
     padding: 2%;
-    margin: auto;
-
+    text-align: center;
 }
 .weather {
     text-align: center;
@@ -547,7 +548,6 @@ div.directorymenu button:hover {
 }
 #weather-api h1, p, h2 {
     font-family: "Roboto";
-    font-size: 2rem;
     text-align: center;
     color: white;
     background-color: #1e5871;
@@ -558,9 +558,10 @@ div.directorymenu button:hover {
     display: flex;
     flex-direction: column;
     border: #05b2dc 8px solid;
-    padding: 2% auto 0 auto;
+    padding: 1%;
 }
 #weather-api figure {
+    text-align: center;
     margin: 2% auto;
     padding: 1%;
     border: #05b2dc 3px solid;
@@ -580,7 +581,7 @@ button {
     text-align: center;
 }
    button.learn-more {
-    width: 10rem;
+    width: 9.2rem;
     height: auto;
     text-align: center;
     vertical-align: middle;
