@@ -14,11 +14,8 @@ if(today === 1 || today === 2) {
     dayAnnounce.style.display = "block";
 }
 else {
-    dayAnnounce.style.display = "none";
+    dayAnnounce.style.display = "hidden";
 }
-const formDate = document.getElementById('join-form-date');
-
-formDate.value = d;
 // Window adjustment trial
 // function windowAdjust() {
 //     const width = window.innerWidth;
