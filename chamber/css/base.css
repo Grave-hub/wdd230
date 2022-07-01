@@ -567,6 +567,85 @@ div.directorymenu button:hover {
     border: #05b2dc 3px solid;
     border-radius: 2%;
 }
+#contact-heading {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    width: 100%;
+}
+#contact-heading h3 {
+    font-size: smaller;
+    padding: 1%;
+    width: 100%;
+    text-align: center;
+    background-image: url("/wdd230/chamber/images/superstition-banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:3%;
+    border: 5px solid #05b2dc;
+    margin: 4% auto;
+    font-size: smaller;
+    background-color: #1e5871;
+}
+#contactForm label {
+    display: flex;
+    flex-direction: column;
+    margin: 2% auto;
+    width: 80%;
+    max-width: 12rem;
+}
+#contact-heading form {
+    width: 50%;
+}
+#contact-box {
+    text-align: center;
+    width: 100%;
+}
+#contact-box textarea {
+    border: 5px solid #05b2dc;
+    max-width: 70%;
+
+}
+#contact-box button {
+    background-color: #1e5871;
+    color: #fff;
+    padding: 2%;
+    border: 3px solid #05b2dc;
+    border-radius: 20rem;
+}
+#contact-box button:hover {
+    color: black;
+    background-color: #05b2dc;
+    margin: 1%;
+}
+#contact-info {
+    background-color: #05b2dc;
+    margin: 5%;
+    padding: 2%;
+    color: black;
+    font-weight: bolder;
+    padding: 2%;
+}
+#contact-info hr {
+    border-top: 2px solid #1e5871 ;
+    margin: 1%;
+}
+#contact-info h5 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #fff;
+    background-color: #1e5871;
+    border-radius: 25px;
+    padding: 2%;
+    margin: auto 20% auto 20%;
+}
 
 button {
     position: relative;

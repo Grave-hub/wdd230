@@ -242,4 +242,31 @@
 	footer p, h1, h2 {
 		font-size: larger;
 	} 
+	#contact-heading {
+		grid-column: 1/-1;
+		grid-row: 1/2;
+		font-size: x-large;
+	}
+	#contact-box {
+		font-size: larger;
+	}
+	#contact-info {
+		grid-row: 3/-1;
+		grid-column: 1/-1;
+		margin: 1%;
+	}
+	#contact-info hr {
+		height: 80%;
+		border-top: 15px solid #1e5871 ;
+	}
+	#contact-info dl {
+		color: black;
+		font-weight: bolder;
+		display: flex;
+		flex-direction: row;
+	}
+	#contact-info h5 {
+		padding: 2%;
+		margin: auto 40% 3% 40%;
+	}
 }
