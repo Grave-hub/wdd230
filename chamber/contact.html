@@ -45,35 +45,36 @@
     </header>
 <p id="announcement">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     <main>
-        <div id="contact-heading">
-            <h3>Get in Touch With Us!</h3>
-            <form method="get" action="/wdd230/chamber/thankyou.html">
-                    <fieldset id="contactForm">
-                        <legend> Contact Info </legend>
-                        <label class="top">Name*: <input type="text" name="contactName" required placeholder="John"></label>
+        <div id="main-contact">
+            <div id="contact-heading">
+                <form method="get" action="/wdd230/chamber/thankyou.html">
+                    <fieldset id="contact-form">
+                        <legend>Contact info</legend>
+                        <label class="top">First Name*: <input type="text" name="firstName" required placeholder="John"></label>
+                        <label class="top">Last Name*: <input type="text" name="lastName" required placeholder="Doe"></label>
                         <label class="top">Email Address*: <input type="email" name="emailAddress" required placeholder="ex. @gmail.com"></label>
                         <label class="top">Phone Number*: <input type="tel" name="phoneNum" required></label>
                     </fieldset>
-            </form>
-            <div id="contact-box"> 
-                <h4>Comments or concerns? Let us know</h4>
-                <label for="contacting">
-                    <textarea id="contacting" name="contact-comment" rows="4" cols="30"></textarea>
-                    <br>
-                    <button id="contact-button">Send</button></label>
+                    <div id="contact-more"> 
+                            <label for="contactTell">Question or comments? Send them here!</label>
+                            <textarea id="contactTell" name="moreAbout" rows="4" cols="50" placeholder="T2 Pest Service is the best because..."></textarea>
+                            <br>
+                            <input type="submit" value="Send">
+                    </div>
+                </form>
             </div>
-        </div>
-        <div id="contact-info">
-            <h5>Contact Us!</h5>
-            <dl>
-                <dt>Address: </dt>
-                <dd>567 Apache Trail
-                    Apache Junction, AZ 85120</dd>
-                <dt>Phone Number: </dt>
-                <dd>480-982-3141</dd>
-                <dt>Email: </dt>
-                <dd>info@ajchamber.com</dd>
-              </dl>
+            <div id="contact-info">
+                <h5>Contact Us!</h5>
+                <dl>
+                    <dt>Address: </dt>
+                    <dd>567 Apache Trail
+                        Apache Junction, AZ 85120</dd>
+                    <dt>Phone Number: </dt>
+                    <dd>480-982-3141</dd>
+                    <dt>Email: </dt>
+                    <dd>info@ajchamber.com</dd>
+                  </dl>
+            </div>
         </div>
     </main>
     <footer>

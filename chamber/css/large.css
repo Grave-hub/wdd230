@@ -232,10 +232,20 @@
 		border-top: 15px solid #1e5871 ;
 	}
 	#contact-info dl {
-		color: black;
+		background-color: #1e5871;
+		border-radius: 25rem;
+		color: white;
 		font-weight: bolder;
 		display: flex;
 		flex-direction: row;
+		width: 100%;
+		justify-items: center;
+	}
+	#contact-info dt {
+		margin: auto;
+	}
+	#contact-info dd {
+		margin: auto 1% auto 1%;
 	}
 	#contact-info h5 {
 		padding: 2%;

@@ -257,7 +257,7 @@ main {
     display: none;
 }
 #spotlights section {
-    border: 3px solid #b3b300;
+    border: 3px solid #e6ac00;
     width: 100%;
 }
 #spotlights section h1, p {
@@ -267,7 +267,8 @@ main {
 #spotlight-head {
     font-size: large;
     font-weight: bold;
-    background-color: #b3b300;
+    background-color: #1e5871;
+    border: 3px solid #e6ac00;
     border-radius: 25rem;
     color: white;
     padding: 2%;
@@ -545,6 +546,12 @@ section a:hover {
     color: #05b2dc;
     transform: scale(2);
 }
+#mainDirectory {
+    text-align: center;
+}
+#mainDirectory h3 {
+    padding: 2%;
+}
 div.directorymenu {
     max-width: 75px;
     display: grid;
@@ -596,56 +603,11 @@ div.directorymenu button:hover {
     flex-direction: column;
     padding: 1%;
     width: 100%;
-}
-#contact-heading h3 {
-    font-size: smaller;
-    padding: 1%;
-    width: 100%;
     text-align: center;
-    background-image: url("/wdd230/chamber/images/superstition-banner.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#contactForm {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding:3%;
     border: 5px solid #05b2dc;
-    margin: 4% auto;
-    font-size: smaller;
-    background-color: #1e5871;
 }
-#contactForm label {
-    display: flex;
-    flex-direction: column;
-    margin: 2% auto;
-    width: 80%;
-    max-width: 12rem;
-}
-#contact-heading form {
-    width: 50%;
-}
-#contact-box {
-    text-align: center;
+#contact-heading label {
     width: 100%;
-}
-#contact-box textarea {
-    border: 5px solid #05b2dc;
-    max-width: 70%;
-
-}
-#contact-box button {
-    background-color: #1e5871;
-    color: #fff;
-    padding: 2%;
-    border: 3px solid #05b2dc;
-    border-radius: 20rem;
-}
-#contact-box button:hover {
-    color: black;
-    background-color: #05b2dc;
-    transform: scale(1.1);
 }
 #contact-info {
     background-color: #05b2dc;
@@ -655,10 +617,6 @@ div.directorymenu button:hover {
     font-weight: bolder;
     padding: 2%;
 }
-#contact-info hr {
-    border-top: 2px solid #1e5871 ;
-    margin: 1%;
-}
 #contact-info h5 {
     font-size: 1.2rem;
     text-align: center;
@@ -667,6 +625,36 @@ div.directorymenu button:hover {
     border-radius: 25px;
     padding: 2%;
     margin: auto 20% auto 20%;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: none;
+}
+#contact-form label {
+    margin: 3% auto 3% auto;
+    line-height: 1.5rem;
+    padding: 1%;
+}
+#contact-more {
+    padding: 2%;
+}
+#contact-more label {
+    margin: 2%;
+}
+#contact-more input {
+    background-color: #1e5871;
+    border: 3px solid #05b2dc;
+    border-radius: 25rem;
+    color: white;
+    padding: 2%;
+    font-weight: bold;
+}
+#contact-more input:hover {
+    background-color: #05b2dc;
+    color: #1e5871;
+    transform: scale(1.1);
 }
 
 button {
