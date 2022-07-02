@@ -442,6 +442,11 @@ legend {
     flex-direction: column;
     margin: 3%;
 }
+#tellMore input:hover {
+    background-color: #05b2dc;
+    color: black;
+    transform: scale(1.2);
+}
 #tellMore p {
     font-size: 1.2rem;
     font-weight: bold;
