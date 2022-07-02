@@ -347,16 +347,20 @@ footer hr.solid {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 90%;
-    margin: 2% 0 0 0;
+    margin: 2% 0 1% 0;
 }
 #demo-info {
     background-color: #1e5871;
     padding: 2%;
-    border-radius: 25px;
     text-align: center;
 }
 #demo-info h1 {
     text-decoration: underline;
+    width: 100%;
+}
+#demo-info p {
+    width: 100%;
+    margin: 0;
 }
 #demographics img {
     display: none;
@@ -553,7 +557,7 @@ div.directorymenu button {
     display: block;
     border: 2px solid #05b2dc;
     padding: 3%;
-    width: auto;
+    width: 100%;
 }
 #gridselect, #listselect {
     padding: 1%;

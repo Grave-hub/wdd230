@@ -128,6 +128,7 @@
 	}
 	#demographics h1, p {
 		background-image: none;
+		margin: 0;
 	}
 	#demographics img:hover {
 		transform: scale(1.1);
