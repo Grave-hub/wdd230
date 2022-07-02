@@ -1,0 +1,27 @@
+{
+    "highlightBus" : [
+        {
+            "imageurl" : "/wdd230/chamber/images/business/rhfordlogo.webp",
+            "name" : "Robert Horne Ford",
+            "address" : "3400 S. Tomahawk Rd., Apache Junction, AZ 85119",
+            "phonenumber" : "480-474-2500",
+            "sitelink" : "https://www.roberthorneford.com/",
+            "memberlvl" : "gold"
+        },        
+        {
+            "imageurl" : "/wdd230/chamber/images/business/pinalcountyfcu.webp",
+            "name" : "Pinal County Federal Credit Union",
+            "address" : "290 S. Phelps Drive, Apache Junction, AZ 85120",
+            "phonenumber" : "520-381-3100",
+            "sitelink" : "https://www.pinalcountyfcu.com/",
+            "memberlvl" : "gold"
+        },        {
+            "imageurl" : "/wdd230/chamber/images/business/mtnamerica.webp",
+            "name" : "Mountain American Credit Union",
+            "address" : "22024 S Ellsworth Loop Road, Queen Creek, AZ 85142",
+            "phonenumber" : "480-372-2531",
+            "sitelink" : "https://www.macu.com/",
+            "memberlvl" : "gold"
+        }
+    ]
+}

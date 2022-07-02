@@ -51,7 +51,6 @@
 	.weather {
 		grid-column: 1;
 		grid-row: 2;
-		background-color: #1e5871;
 		border: solid 8px #05b2dc;
 		padding: 1%;
 		min-width: 100%;
@@ -118,7 +117,7 @@
 	}
 
 	button.learn-more {
-		width: 15rem;
+		width: 12rem;
 	}
 
 	.news {
@@ -140,35 +139,6 @@
 		border: solid 5px #05b2dc;
 		padding: 2%;
 
-	}
-	.spotlights svg {
-		max-width: 200px;
-	}
-
-	.spotlight1 {
-		background-color: #1e5871;
-		border: solid 8px #05b2dc;
-		padding: 2%;
-		margin: 0;
-		text-align: center;
-		font-size: small;
-	}
-	.spotlight2 {
-		background-color: #1e5871;
-		border: solid 8px #05b2dc;
-		padding: 2%;
-		margin: 0%;
-		text-align: center; 
-		font-size: small; 
-	}
-	.spotlight3 {
-		display: block;
-		background-color: #1e5871;
-		border: solid 8px #05b2dc;
-		padding: 2%;
-		margin: 0%;
-		text-align: center;   
-		font-size: small;
 	}
 	.gallery {
 		display: flex;
@@ -268,5 +238,15 @@
 	#contact-info h5 {
 		padding: 2%;
 		margin: auto 40% 3% 40%;
+	}
+	#spotlights {
+		display: flex;
+		flex-direction: column;
+		grid-column: 5;
+		grid-row: 1/4;
+	}
+	#away_link {
+		max-height: 150px;
+		padding: 0;
 	}
 }

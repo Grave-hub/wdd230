@@ -78,29 +78,6 @@
 		grid-row: 2;
 		padding: 2%;   
 	}
-	
-	.spotlights {
-		display: flex;
-		flex-direction: row;
-		grid-column: 1/-1;
-		justify-content: space-between;
-		min-width: 100%;
-	}
-	.spotlights svg {
-		max-height: 75px;
-	}
-
-	.spotlight2 {
-		padding: 2%;
-	}
-
-	.spotlight1 {
-		padding: 2%;
-	}
-	
-	.spotlight3 {
-        display: none;
-	}
 	footer {
 		display: grid;
     	grid-template-columns: 1fr 1fr 1fr;
@@ -256,5 +233,29 @@
 		width: 100%;
 		font-size: 1.2rem;
 	}
-
+	#spotlights {
+		display: grid;
+		align-items: center;
+		grid-auto-rows: auto;
+		grid-column: 1/-1;
+		grid-row: 3;
+	}
+	#spotlights section {
+		grid-row: 2;
+		height: 100%;
+	}
+	#spotlights p {
+		grid-row: 1;
+		grid-column: 2;
+		text-align: center;
+	}
+	#spotlights :nth-child(2) {
+		display: block;
+	}
+	#spotlights section h1, p {
+		margin: 1%;
+	}
+	#spotlights section img {
+		max-width: 100%;
+	}
 }

@@ -221,11 +221,13 @@ main {
     text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-width: 50%;
 }
 .weather_block {
     display: inline-flex;
     flex-direction: row;
+    align-items: center;
     margin: 1%;
 }
 .weather_block svg {
@@ -244,21 +246,32 @@ main {
     display: inline-flex;
     margin: 3%;
 }  
-.spotlights svg {
-    max-height: 50px;
-}
-.spotlights {
+#spotlights {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 8px solid #05b2dc;
+    padding: 1%;
 }
-.spotlight1 {
-    background-color: #1e5871;
-    border: solid 8px #05b2dc;
-    margin: 5% auto;
+#spotlights :nth-child(2) {
+    display: none;
 }
-.spotlight2 {
-    background-color: #1e5871;
-    border: solid 8px #05b2dc;
-    margin: 5% auto;
+#spotlights section {
+    border: 3px solid #b3b300;
+    width: 100%;
+}
+#spotlights section h1, p {
+    margin: 1%;
+    font-size: smaller;
+}
+#spotlight-head {
+    font-size: large;
+    font-weight: bold;
+    background-color: #b3b300;
+    border-radius: 25rem;
+    color: white;
+    padding: 2%;
+    margin: 1% auto 1% auto;
 }
 .news {
     display: flex;
@@ -628,7 +641,7 @@ div.directorymenu button:hover {
 #contact-box button:hover {
     color: black;
     background-color: #05b2dc;
-    margin: 1%;
+    transform: scale(1.1);
 }
 #contact-info {
     background-color: #05b2dc;
@@ -663,6 +676,7 @@ button {
     background: transparent;
     font-family: inherit;
     text-align: center;
+    margin: auto;
 }
    button.learn-more {
     width: 9.2rem;
@@ -718,10 +732,10 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    margin: 0 0 0 1.85rem;
+    margin: .6rem auto auto 3rem;
     color: black;
     font-weight: 700;
-    line-height: 1.6;
+    line-height: 1.1;
     text-align: center;
     align-items: center;
    }
