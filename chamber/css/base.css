@@ -14,7 +14,9 @@ h1, h2 {
 #announcement p{
     font-size: .5rem;
 }
-
+#announcement {
+    margin: 0;
+}
 .logo_title {
     grid-row: 1/-1;
 }
@@ -260,7 +262,7 @@ main {
     border: 3px solid #e6ac00;
     width: 100%;
 }
-#spotlights section h1, p {
+#spotlights section h1 p {
     margin: 1%;
     font-size: smaller;
 }
