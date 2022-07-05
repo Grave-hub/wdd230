@@ -4,7 +4,7 @@
     --main-color: #84acce;
     --secondary-color:#eddea4;
     --supplement-color: #345995;
-    --border-template: 5px solid var(--supplement-color);
+    --border-template: 3px solid var(--supplement-color);
 }
 * {
     margin: auto;
@@ -14,12 +14,62 @@
 a {
     text-decoration: none;
 }
-h1, h2, h3 {
+h1, h2, h3, ul, button {
     font-family: var(--heading-font);
 }
-p {
+p, li {
     font-family: var(--paragraph-font);
     font-weight: 600;
+}
+header {
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+}
+.nav-div{
+    grid-column: 2/5;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--main-color);
+    width: 100%;
+    height: 100%;
+}
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    width: 100%;
+}
+.nav-div a:visited {
+    text-decoration: none;
+    color: black;
+}
+.header-logo {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+    width: 100%;
+    height: 100%;
+}
+.header-logo img {
+    width: 50%;
+}
+.social-icons {
+    grid-column: 5/-1;
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.social-icons h2 {
+    margin: 5% auto 2% auto;
+}
+.social-icons svg {
+    max-width: 50px;
+}
+.social-icons svg:hover {
+    transform: scale(1.1);
 }
 footer {
     background-color: var(--main-color);
@@ -27,54 +77,126 @@ footer {
     flex-direction: row;
     width: 100%;
 }
-#footer-map {
+.footer-map {
     display: flex;
     flex-direction: column;
     max-width: 33%;
 }
-#footer-map iframe{
+.footer-map iframe{
     width: 100%;
 }
-#footer-map p {
+.footer-map p {
     text-align: center;
     padding: 2%;
 }
-#footer-info {
+.footer-info {
     text-align: center;
     line-height: 2.2rem;
 }
-#footer-info p:first-child {
+.footer-info p:first-child {
     font-size: 1.2rem;
     text-decoration: underline;
 }
-#footer-logo {
+.footer-logo {
     text-align: center;
 }
-#footer-logo img {
+.footer-logo img {
     max-width: 125px;
 }
-#footer-logo a {
+.footer-logo a {
     color: black;
 }
-#footer-logo a:hover {
+.footer-logo a:hover {
     color: #345995;
     text-decoration: underline;
 }
 @media only screen and (max-width:600px) {
+    h1, h2, h3 {
+        font-size: small;
+    }
+    header {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .header-logo {
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+    .social-icons {
+        grid-column: 6/-1;
+        grid-row: 1;
+    }
+    .social-icons svg {
+        max-width: 30%;
+        margin: 2%;
+    }
+    .social-icons h2 {
+        display: none;
+    }
+    .nav-div {
+        grid-column: 3/6;
+        grid-row: 1;
+    }
+    .dropbtn {
+        background-color: var(--main-color);
+        border: none;
+        padding: 1%;
+        cursor: pointer;
+        max-width: 100px;
+        font-weight: 600;
+    }
+    .dropbtn:hover {
+        cursor:default;
+    }
+    .dropbtn svg {
+        max-width: 15px;
+        max-height: 15px;
+    }
+    .nav-div {
+        position: relative;
+        display: inline-block;
+        grid-column: 3/6;
+        text-align: center;
+        margin: auto;
+    }
+    .nav-list {
+        display: none;
+        position:absolute;
+        background-color: var(--main-color);
+        color: white;
+        min-width: 100px;
+        z-index: 1;
+    }
+    .nav-list li {
+        background-color: var(--main-color);
+        padding: 1%;
+        display: block;
+    }
+    .nav-list li:hover {
+        background-color: var(--supplement-color);
+        transform: scale(1.1);
+    }
+    .nav-list li a:hover {
+        color: white;
+    }
+    .nav-div:hover
+    .nav-list {
+        display: block;
+    }
     footer {
         font-size: .7rem;
     }
-    #footer-logo img {
-        max-width: 75px;
+    .footer-logo img {
+        max-width: 50px;
     }
-    #footer-info p:first-child {
+    .footer-info p:first-child {
         font-size: .8rem;
     }
-    #footer-info {
+    .footer-info {
         line-height: 1.2rem;
     }
     footer iframe {
-        max-width: 100px;
-        height: 100px;
+        max-width: 75px;
+        height: 75px;
     }
 }

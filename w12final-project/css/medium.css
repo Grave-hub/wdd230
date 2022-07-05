@@ -1,3 +1,39 @@
 @media only screen and (min-width:600px) {
-    
+    .header-logo h1 {
+        font-size: 100%;
+    }
+    .social-icons svg {
+        width: 30%;
+        max-width: 40px;
+        margin: 2%;
+    }
+    .social-icons h2 {
+        display: block;
+        font-size: 80%;
+    }
+    .nav-div a {
+        font-size: .9rem;
+    }
+    .nav-div a:hover {
+        color: white;
+    }
+    .dropbtn {
+        display: none;
+    }
+    footer {
+        font-size: .8rem;
+    }
+    .footer-logo img {
+        max-width: 50px;
+    }
+    .footer-info p:first-child {
+        font-size: .9rem;
+    }
+    .footer-info {
+        line-height: 1.2rem;
+    }
+    footer iframe {
+        max-width: 125px;
+        height: 100px;
+    }
 }

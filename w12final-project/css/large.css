@@ -1,0 +1,31 @@
+@media only screen and (min-width:992px) {
+    .header-logo h1 {
+        font-size: 1.5rem;
+    }
+    .social-icons svg {
+        max-width: 60px;
+    }
+    .social-icons h2 {
+        font-size: 1.1rem;
+    }
+    .nav-div a {
+        font-size: 1.2rem;
+    }
+    footer {
+        font-size: 1.1rem;
+    }
+    .footer-logo img {
+        width: auto;
+        max-width: 90px;
+    }
+    .footer-info p:first-child {
+        font-size: 1.3rem;
+    }
+    .footer-info {
+        line-height: 1.6rem;
+    }
+    footer iframe {
+        max-width: 70%;
+        height: auto;
+    }
+}
