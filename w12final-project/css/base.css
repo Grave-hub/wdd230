@@ -14,8 +14,13 @@
 a {
     text-decoration: none;
 }
-h1, h2, h3, ul, button {
+ul, li {
+    text-decoration: none;
+    list-style: none;
+}
+h1, h2, h3, h4, h5, ul, button, section {
     font-family: var(--heading-font);
+    font-weight: 600;
 }
 p, li {
     font-family: var(--paragraph-font);
@@ -24,6 +29,10 @@ p, li {
 header {
     display: grid;
     grid-template-columns:repeat(5, 1fr);
+}
+hr {
+    border-top: var(--border-template);
+    width: 100%;
 }
 .nav-div{
     grid-column: 2/5;
@@ -70,6 +79,83 @@ header {
 }
 .social-icons svg:hover {
     transform: scale(1.1);
+}
+.weather-announce {
+    display: none;
+}
+#reservation-action {
+    text-align: center;
+    padding: 2%;
+    background-image: url(/wdd230/w12final-project/images/small-mesa-pan.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#reservation-action h3 {
+    background-color: var(--secondary-color);
+    border: var(--border-template);
+    color: black;
+    width: 75%;
+    border-radius: 10rem;
+    padding: 2%;
+}
+#reservation-action button {
+    margin: 3%;
+    padding: 1%;
+    background-color: var(--main-color);
+    font-weight: 600;
+    border: var(--border-template);
+    border-radius: 20rem;
+}
+#reservation-action button:hover {
+    background-color: var(--supplement-color);
+    color: white;
+    transform: scale(1.1);
+}
+.main-contact h4 {
+    font-size: larger;
+}
+#temple-carousel {
+    display: grid;
+    grid-template-columns: repeat(3, 15% 70% 15%) ;
+    text-align: center;
+    background-color: var(--main-color);
+    color: white;
+}
+#temple-carousel img {
+    margin: auto;
+    /* border: 3px solid white; */
+    grid-column: 2;
+    width: 100%;
+}
+#temple-carousel ul {
+    grid-column: 2;
+    background-color: var(--supplement-color);
+    /* border: 3px solid white; */
+    padding: 2% none 2% none;
+    width: 100%;
+}
+.temple-buttons {
+    height: 15%;
+    width: 80%;
+    margin: auto;
+    background-color: var(--supplement-color);
+    border: none;
+    color: white;
+}
+#rightarrow:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+#leftarrow:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+#index-weather {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 footer {
     background-color: var(--main-color);
@@ -183,6 +269,16 @@ footer {
     .nav-list {
         display: block;
     }
+    .main-contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: var(--secondary-color);
+        font-size: 90%;
+        padding: 1%;
+        margin: 2% 10% 2% 10%;
+        border-radius: 1rem;
+    }
     footer {
         font-size: .7rem;
     }
@@ -193,7 +289,7 @@ footer {
         font-size: .8rem;
     }
     .footer-info {
-        line-height: 1.2rem;
+        line-height: 1rem;
     }
     footer iframe {
         max-width: 75px;
