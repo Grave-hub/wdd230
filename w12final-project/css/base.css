@@ -18,11 +18,11 @@ ul, li {
     text-decoration: none;
     list-style: none;
 }
-h1, h2, h3, h4, h5, ul, button, section {
+h1, h2, h3, h4, h5, h6, ul, button, section {
     font-family: var(--heading-font);
     font-weight: 600;
 }
-p, li {
+p, li, figcaption {
     font-family: var(--paragraph-font);
     font-weight: 600;
 }
@@ -100,6 +100,7 @@ hr {
     background-color: var(--secondary-color);
     color: black;
     width: 100%;
+    height: 100%;
     text-align: center;
     padding: 2%;
 }
@@ -108,6 +109,8 @@ hr {
     grid-column: 1;
     background-color: var(--main-color);
     width: 100%;
+    text-align: center;
+    padding: 2%;
 }
 #forecastp {
     grid-column: 2/5;
@@ -115,6 +118,7 @@ hr {
     background-color: var(--secondary-color);
     color: black;
     width: 100%;
+    height: 100%;
     text-align: center;
     padding: 2%;
 }
@@ -198,6 +202,16 @@ hr {
 .main-contact h4 {
     font-size: larger;
 }
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--secondary-color);
+    font-size: 90%;
+    padding: 1%;
+    margin: 2% 10% 2% 10%;
+    border-radius: 1rem;
+}
 #temple-carousel {
     display: grid;
     grid-template-columns: repeat(3, 15% 70% 15%) ;
@@ -242,6 +256,28 @@ hr {
     background-color: white;
     transform: scale(1.1);
 }
+#services-provided {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    padding: 6%;
+    margin: 0 10% 2% 10%;
+    border-radius: 25px;
+}
+#services-provided p {
+    font-family: var(--heading-font);
+    font-size: 1.2rem;
+    background-color: var(--supplement-color);
+    border-radius: 25% 1%;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto 2% auto;
+}
+#services-provided li {
+    list-style:square;
+}
 footer {
     background-color: var(--main-color);
     display: flex;
@@ -260,6 +296,19 @@ footer {
     text-align: center;
     padding: 2%;
 }
+.footer-map a {
+    font-family: var(--paragraph-font);
+    font-weight: 700;
+    color: black;
+    padding: 1%;
+    border-radius: 25px;
+}
+.footer-map a:hover {
+    background-color: white;
+    color: var(--supplement-color);
+    transform: scale(1.1);
+    transition: all 200ms ease-out;
+}
 .footer-info {
     text-align: center;
     line-height: 2.2rem;
@@ -270,16 +319,21 @@ footer {
 }
 .footer-logo {
     text-align: center;
+    padding: 1%;
 }
 .footer-logo img {
     max-width: 125px;
 }
 .footer-logo a {
     color: black;
+    border-radius: 25px;
+    padding: 2%;
 }
 .footer-logo a:hover {
-    color: #345995;
-    text-decoration: underline;
+    background-color: white;
+    color: var(--supplement-color);
+    transform: scale(1.1);
+    transition: all 200ms ease-out;
 }
 @media only screen and (max-width:600px) {
     h1, h2, h3 {
@@ -353,16 +407,6 @@ footer {
     .nav-div:hover
     .nav-list {
         display: block;
-    }
-    .main-contact {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background-color: var(--secondary-color);
-        font-size: 90%;
-        padding: 1%;
-        margin: 2% 10% 2% 10%;
-        border-radius: 1rem;
     }
     footer {
         font-size: .7rem;
