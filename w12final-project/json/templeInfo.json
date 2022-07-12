@@ -1,0 +1,52 @@
+{
+    "templeInfo" : [
+        {
+            "name" : "Logan Utah Temple",
+            "location" : "Logan Utah",
+            "dedicationDate" : "17 May 1884",
+            "addresses" : "175 N 300 E Logan UT, 84321-4720 United States",
+            "templePhone" : "435-752-3611",
+            "templeEmail" : "mailto:?body=https%3A%2F%2Fwww.churchofjesuschrist.org%2Flearn%2Fabout-us%3Flang%3Deng&amp;subject=The%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints",
+            "templeServices" : ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "templeClosed" : "Saturday, 1 October 2022 | Monday, 3 October 2022 - Monday, 17 October 2022 | Thursday, 24 November 2022 | Saturday, 24 December 2022",
+            "imgSource" : "/wdd230/w12final-project/images/logan-temple-unedited.webp"
+        },
+        {
+            "name" : "Gilbert Arizona Temple",
+            "location" : "Gilbert Arizona",
+            "dedicationDate" : "2 March 2014",
+            "addresses" : "3301 S Greenfield Rd. Gilbert AZ, 85297 United States",
+            "templePhone" : "480-822-5000",
+            "templeEmail" : "mailto:?body=https%3A%2F%2Fwww.churchofjesuschrist.org%2Flearn%2Fabout-us%3Flang%3Deng&amp;subject=The%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints",
+            "templeServices" : ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "templeClosed" : "Monday, 3 October 2022 - Monday, 17 October 2022 | Wednesday, 23 November 2022 - Thursday, 24 November 2022 | Saturday 24 December 2022 | Saturday, 31 December 2022",
+            "imgSource" : "/wdd230/w12final-project/images/gilbert-temple.webp"
+        },
+        {
+            "name" : "San Diego California Temple",
+            "location" : "San Diego California",
+            "dedicationDate" : "25 April 1993",
+            "addresses" : "7474 Charmant Dr San Diego CA, 92122-5000 United States",
+            "templePhone" : "858-622-0991",
+            "templeEmail" : "mailto:?body=https%3A%2F%2Fwww.churchofjesuschrist.org%2Flearn%2Fabout-us%3Flang%3Deng&amp;subject=The%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints",
+            "templeServices" : ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "templeClosed" : "Saturday, 1 October 2022 | Wednesday, 23 November 2022 - Thursday, 24 November 2022 | Saturday, 24 December 2022 Saturday | 31 December 2022",
+            "imgSource" : "/wdd230/w12final-project/images/san-diego-temple-small.webp"
+        },
+        {
+            "name" : "Tucson Arizona Temple",
+            "location" : "Tucson Arizona",
+            "dedicationDate" : "13 August 2017",
+            "addresses" : "7281 North Skyline Dr Tucson AZ, 85718 United States",
+            "templePhone" : "520-395-3900",
+            "templeEmail" : "mailto:?body=https%3A%2F%2Fwww.churchofjesuschrist.org%2Flearn%2Fabout-us%3Flang%3Deng&amp;subject=The%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints",
+            "templeServices" : ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "templeClosed" : "Monday, 18 July 2022 | Wednesday, 23 November 2022 - Thursday, 24 November 2022 | Saturday, 24 December 2022 Saturday | 31 December 2022",
+            "imgSource" : "/wdd230/w12final-project/images/logan-temple-unedited.webp"
+        }
+    ]
+}

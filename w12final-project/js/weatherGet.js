@@ -12,7 +12,7 @@ const weatherAlert = document.querySelector('.weatherAlert')
 fetch(getWeatherURL)
   .then((response) => response.json())
   .then((data) => {
-    console.log(data);
+    // console.log(data);
     weatherAlert.innerHTML = `<strong>${data.weather[0].main}</strong>`;
     currentTemp.innerHTML = `<strong>${data.main.temp.toFixed(0)}</strong>`;
     windSpeedAPI.innerHTML = `<strong>${data.wind.speed.toFixed(0)}`
@@ -21,5 +21,4 @@ fetch(getWeatherURL)
     const desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);weatherIcon.setAttribute('alt', desc);
     captionFig.textContent = desc;
-
   });

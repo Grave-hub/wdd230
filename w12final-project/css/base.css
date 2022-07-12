@@ -182,13 +182,13 @@ hr {
     background-color: var(--secondary-color);
     border: var(--border-template);
     color: black;
-    width: 75%;
+    width: 80%;
     border-radius: 10rem;
     padding: 2%;
 }
 #reservation-action button {
     margin: 3%;
-    padding: 1%;
+    padding: 2%;
     background-color: var(--main-color);
     font-weight: 600;
     border: var(--border-template);
@@ -198,6 +198,7 @@ hr {
     background-color: var(--supplement-color);
     color: white;
     transform: scale(1.1);
+    cursor: pointer;
 }
 .main-contact h4 {
     font-size: larger;
@@ -278,6 +279,28 @@ hr {
 #services-provided li {
     list-style:square;
 }
+#templeMain h3 {
+    text-align: center;
+    padding: 2%;
+    background-color: var(--supplement-color);
+    color: white;
+    border: 3px solid var(--main-color);
+    border-radius: 25rem;
+    margin: 4% auto;
+    width: 80%;
+    font-size: 1.1rem;
+}
+.templeCards {
+    display: flex;
+    flex-direction: column;
+}
+.gridStyle {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5%;
+}
+
 footer {
     background-color: var(--main-color);
     display: flex;
