@@ -20,6 +20,66 @@
     .dropbtn {
         display: none;
     }
+    .alert a {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 1%;
+    }
+    .templeCards {
+        text-align: center;
+        padding: 1%;
+    }
+    article.grid section {
+        border: 3px solid var(--supplement-color);
+        height: 100%;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 2%;
+        line-height: 1.5rem;
+    }
+    article.grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 300px));
+        grid-template-rows: repeat(auto-fit, minmax(400px, 500px));
+        gap: 1%;
+        justify-content: center;
+    }
+    article.list section {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        font-size: smaller;
+    }
+    article.list section p:first-child {
+        max-width: 15%;
+        padding: 1%;
+        margin: 1%;
+    }
+    article.list section p:nth-child(5) {
+        display: none;
+    }
+    .grid section img {
+		background-color: white;
+		max-width: 200px;
+		width: 50%;
+		box-shadow: 3px 3px 3px black;
+	}
+    #cardsList, #cardsGrid {
+        max-width: 70px;
+        width: 10%;
+    }
+    .mySlides img {
+        max-width: 400px;
+        max-height: 280px;
+    }
+    .mySlides {
+        font-size: 1.5rem;
+    }
+    .prev, .next {
+        max-width: 50px;
+        max-height: 50px;
+    }
     footer {
         font-size: .8rem;
     }

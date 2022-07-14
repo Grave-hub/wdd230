@@ -55,15 +55,25 @@
             <p>Phone: 480-833-1211</p>
             <p>Address: 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
         </div>
-        <div id="temple-carousel">
-            <button class="temple-buttons" id="leftarrow">&laquo;</button>
-            <img class="carousel-template" alt="the California San Diego temple" src="/wdd230/w12final-project/images/san-diego-temple-small.webp">
-            <button class="temple-buttons" id="rightarrow">&raquo;</button>
-            <ul id="temple-carousel-info">
-                <li>Name: <span class="temple-name">San Diego Temple</span></li>
-                <li>Location: <span class="temple-location">San Diego, California, USA</span></li>
-                <li>Dedicated: <span class="temple-dedicated">25 April, 1993</span></li>
-            </ul>
+        <div class="slideshowContainer">
+            <div class="mySlides">
+                <img class=myslidesImg1 src="none">
+                <div class="slidestext1">Caption One</div>
+            </div>
+            <div class="mySlides">
+                <img class=myslidesImg2 src="none">
+                <div class="slidestext2">Caption Two</div>
+            </div>
+            <div class="mySlides">
+                <img class=myslidesImg3 src="none" >
+                <div class="slidestext3">Caption Three</div>
+            </div>
+            <div class="mySlides">
+                <img class=myslidesImg4 src="none" >
+                <div class="slidestext4">Caption Four</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
         <div id="index-weather">
             <p id="displayp">Current Weather</p>
@@ -143,5 +153,6 @@
     </footer>
     <script src="/wdd230/js/last_updated.js" defer></script>
     <script src="/wdd230/w12final-project/js/weatherGet.js" defer></script>
+    <script src="/wdd230/w12final-project/js/templeCarousel.js" defer></script>
 </body>
 </html>

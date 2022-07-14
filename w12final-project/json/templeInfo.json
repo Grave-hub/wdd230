@@ -10,7 +10,7 @@
             "templeServices" : ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
             "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
             "templeClosed" : "Saturday, 1 October 2022 | Monday, 3 October 2022 - Monday, 17 October 2022 | Thursday, 24 November 2022 | Saturday, 24 December 2022",
-            "imgSource" : "/wdd230/w12final-project/images/logan-temple-unedited.webp"
+            "imgSource" : "/wdd230/w12final-project/images/logan-temple-edited.webp"
         },
         {
             "name" : "Gilbert Arizona Temple",
@@ -22,7 +22,7 @@
             "templeServices" : ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
             "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
             "templeClosed" : "Monday, 3 October 2022 - Monday, 17 October 2022 | Wednesday, 23 November 2022 - Thursday, 24 November 2022 | Saturday 24 December 2022 | Saturday, 31 December 2022",
-            "imgSource" : "/wdd230/w12final-project/images/gilbert-temple.webp"
+            "imgSource" : "/wdd230/w12final-project/images/gilbert-temple-edited.webp"
         },
         {
             "name" : "San Diego California Temple",
@@ -34,7 +34,7 @@
             "templeServices" : ["Clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
             "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
             "templeClosed" : "Saturday, 1 October 2022 | Wednesday, 23 November 2022 - Thursday, 24 November 2022 | Saturday, 24 December 2022 Saturday | 31 December 2022",
-            "imgSource" : "/wdd230/w12final-project/images/san-diego-temple-small.webp"
+            "imgSource" : "/wdd230/w12final-project/images/san-diego-edited.webp"
         },
         {
             "name" : "Tucson Arizona Temple",
@@ -46,7 +46,19 @@
             "templeServices" : ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
             "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
             "templeClosed" : "Monday, 18 July 2022 | Wednesday, 23 November 2022 - Thursday, 24 November 2022 | Saturday, 24 December 2022 Saturday | 31 December 2022",
-            "imgSource" : "/wdd230/w12final-project/images/logan-temple-unedited.webp"
+            "imgSource" : "/wdd230/w12final-project/images/tucson-temple-edited.webp"
+        },
+        {
+            "name" : "Snowflake Arizona Temple",
+            "location" : "Snowflake Arizona",
+            "dedicationDate" : "3 March 2002",
+            "addresses" : "1875 W Canyon Dr Snowflake AZ, 85937-6014 United States",
+            "templePhone" : "928-536-6626",
+            "templeEmail" : "mailto:?body=https%3A%2F%2Fwww.churchofjesuschrist.org%2Flearn%2Fabout-us%3Flang%3Deng&amp;subject=The%20Church%20of%20Jesus%20Christ%20of%20Latter-day%20Saints",
+            "templeServices" : ["No clothing rental available", "No cafeteria available", "No patron housing available", "Distribution center nearby"],
+            "ordinanceSchedule" : "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+            "templeClosed" : "Monday, 19 September 2022 - Monday, 3 October 2022 | Thursday, 24 November 2022 | Saturday, 24 December 2022 Saturday - Sunday, 25 December 2022",
+            "imgSource" : "/wdd230/w12final-project/images/snowflake-temple.webp"
         }
     ]
 }

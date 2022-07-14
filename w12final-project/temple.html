@@ -40,19 +40,42 @@
     <main>
         <div id="templeMain">
             <h3>Information about a few Temples</h3>
-            <div id="temple-carousel">
-                <button class="temple-buttons" id="leftarrow">&laquo;</button>
-                <img id="carouselTemplate" alt="none"  src="none">
-                <button class="temple-buttons" id="rightarrow">&raquo;</button>
-                <ul id="temple-carousel-info">
-                    <li>Name: <span class="temple-name"></span></li>
-                    <li>Location: <span class="temple-location"></span></li>
-                    <li>Dedicated: <span class="temple-dedicated"></span></li>
-                </ul>
+            <div class="slideshowContainer">
+                <div class="mySlides fade">
+                    <img class=myslidesImg1 src="none">
+                    <div class="slidestext1">Caption One</div>
+                    <p id="dedicated1">none</p>
+                </div>
+                <div class="mySlides fade">
+                    <img class=myslidesImg2 src="none">
+                    <div class="slidestext2">Caption Two</div>
+                    <p id="dedicated2"></p>
+                </div>
+                <div class="mySlides fade">
+                    <img class=myslidesImg3 src="none" >
+                    <div class="slidestext3">Caption Three</div>
+                    <p id="dedicated3"></p>
+                </div>
+                <div class="mySlides fade">
+                    <img class=myslidesImg4 src="none" >
+                    <div class="slidestext4">Caption Four</div>
+                    <p id="dedicated4"></p>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-            <h4>Data</h4>
+            <div id="templeLike">
+                <h4>Rate this temple:<br></h4>
+                <div id="starRank">
+                    <a>⭐</a>
+                    <a>⭐</a>
+                    <a>⭐</a>
+                    <a>⭐</a>
+                    <a>⭐</a>
+                </div>
+            </div>
             <div class="templeCards">
-                <button id="cardsGrid">Grid</button><button id="cardsList">List</button>
+                <div id="templeButtons"><button id="cardsGrid">Grid</button><button id="cardsList">List</button></div>
                 <article class="gridStyle"></article>
             </div>
         </div>

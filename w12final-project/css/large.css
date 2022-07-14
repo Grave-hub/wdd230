@@ -11,6 +11,9 @@
     .nav-div a {
         font-size: 1.2rem;
     }
+    article.list section p:nth-child(5) {
+        display: block;
+    }
     footer {
         font-size: 1.1rem;
     }

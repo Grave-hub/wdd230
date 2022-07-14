@@ -213,50 +213,6 @@ hr {
     margin: 2% 10% 2% 10%;
     border-radius: 1rem;
 }
-#temple-carousel {
-    display: grid;
-    grid-template-columns: repeat(3, 15% 70% 15%) ;
-    text-align: center;
-    background-color: var(--main-color);
-    color: white;
-}
-#temple-carousel img {
-    margin: auto;
-    grid-column: 2;
-    width: 100%;
-    box-shadow: 2px 2px 5px var(--supplement-color);
-}
-#temple-carousel img:hover {
-    transition: all 200ms ease-out;
-    transform: scale(1.01);
-}
-#temple-carousel ul {
-    grid-column: 2;
-    background-color: var(--supplement-color);
-    padding: 2% none 2% none;
-    width: 100%;
-}
-#temple-carousel-info {
-    padding: 2%;
-}
-.temple-buttons {
-    height: 15%;
-    width: 80%;
-    margin: auto;
-    background-color: var(--supplement-color);
-    border: none;
-    color: white;
-}
-#rightarrow:hover {
-    color: black;
-    background-color: white;
-    transform: scale(1.1);
-}
-#leftarrow:hover {
-    color: black;
-    background-color: white;
-    transform: scale(1.1);
-}
 #services-provided {
     display: flex;
     flex-direction: column;
@@ -290,17 +246,151 @@ hr {
     width: 80%;
     font-size: 1.1rem;
 }
-.templeCards {
-    display: flex;
-    flex-direction: column;
+.slideshowContainer {
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    margin: 2% auto;
+    background-color: var(--secondary-color);
+    padding: 2%;
 }
-.gridStyle {
+.mySlides {
     display: flex;
     flex-direction: column;
+    grid-column: 2;
     text-align: center;
-    margin: 5%;
 }
-
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .2;}
+    to {opacity: 1;}
+}
+.mySlides div {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    padding: 1%;
+}
+.mySlides p {
+    font-weight: 600;
+    font-size: smaller;
+}
+.mySlides img {
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px black;
+    width: 100%;
+    max-width: 200px;
+    max-height: 120px;
+    position: relative;
+}
+.mySlides img:hover {
+    transform: scale(1.05);
+    transition: all 200ms;
+}
+article.list section{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    border: 3px solid var(--supplement-color);
+}
+article.list section p:first-child {
+    min-width: 15%;
+}
+article.list img {
+    display: none;
+}
+.prev, .next {
+    min-height: 40px;
+    min-width: 40px;
+    padding: 20%;
+    text-align: center;
+    background-color: var(--main-color);
+    grid-row: 1/-1;
+    position: relative;
+    border-radius: 25rem;
+}
+.prev {
+    grid-column: 1;
+}
+.next {
+    grid-column: 3;
+}
+.prev:hover, .next:hover {
+    color: white;
+    background-color: var(--supplement-color);
+    transform: scale(1.1);
+}
+#templeLike {
+    text-align: center;
+    background-color: var(--supplement-color);
+    border: 3px solid var(--main-color);
+    border-radius: 25rem;
+    color: white;
+    width: 75%;
+    padding: 2%;
+    line-height: 2rem;
+    margin: 2% auto;
+}
+#starRank {
+    display: flex;
+    width: 60%;
+    max-width: 200px;
+}
+#starRank a {
+    font-size: 1.4rem;
+    opacity: 50%;
+    cursor: pointer;
+}
+#starRank:hover a {
+    opacity: 100%;
+}
+#starRank a:hover ~ a {
+    opacity: 50%;
+}
+#starRank a.active {
+    opacity: 100%;
+}
+#templeButtons {
+    text-align: center;
+    margin: auto auto 3% auto;
+}
+.gridStyle img {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 5%;
+    margin: 2%;
+}
+.gridStyle section p:first-child {
+    font-size: larger;
+    font-weight: 800;
+    padding: 2%;
+    background-color: var(--supplement-color);
+    color: white;
+    margin: auto;
+    width: 100%;
+}
+.gridStyle section {
+    line-height: 1.5rem;
+    background-color:var(--main-color);
+}
+#cardsList, #cardsGrid {
+    max-width: 45px;
+    width: 100%;
+    margin: auto;
+    color: white;
+    background-color: var(--supplement-color);
+    border: 2px solid var(--main-color);
+    text-align: center;
+    padding: 1%;
+}
+#cardsList:hover, #cardsGrid:hover {
+    color: black;
+    background-color: var(--main-color);
+    border: 2px solid var(--supplement-color);
+    transform: scale(1.1);
+    cursor: pointer;
+}
 footer {
     background-color: var(--main-color);
     display: flex;
@@ -430,6 +520,13 @@ footer {
     .nav-div:hover
     .nav-list {
         display: block;
+    }
+    .gridStyle section {
+        text-align: left;
+    }
+    article.list section {
+        flex-direction: column;
+        text-align: center;
     }
     footer {
         font-size: .7rem;
