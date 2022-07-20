@@ -101,12 +101,13 @@ function showList() {
     display.classList.remove("grid");
 }
 
+const stars = document.querySelectorAll('#starRank a');
+
 stars.forEach((star, index) => {
   star.addEventListener('click', () => {
     let currentSlide = document.querySelector(`.slidestext${slideIndex}`);
     let currentText = currentSlide.innerHTML;
     localStorage.setItem( currentText, `was given ${index+1} star(s) `);
-    
   })
 });
 

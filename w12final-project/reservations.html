@@ -38,11 +38,91 @@
         </div>
     </header>
     <main>
-        <fieldset>
-            <form>
-                <label></label>
+        <div id="reservationContainer">
+            <form method="get" action="/wdd230/w12final-project/thankYou.html">
+                <fieldset id="reservationForm">
+                    <legend>Reserve Your Next Temple Trip</legend>
+                    <label for="resLocation">Location: <input type="text" name="resLocation" required placeholder=""></label>
+                    <label for="startDate">Arrival Date:<input type="date" name="startDate" required></label>
+                    <label for="endDate">Departure Date:<input type="date" name="endDate" required></label>
+                    <label for="resRooms">Number and Types of Rooms:<input type="text" name="resRooms" required placeholder=""></label>
+                    <label for="resFname">First Name: <input type="text" name="resFname" required placeholder="Joeseph"></label>
+                    <label for="resLname">Last Name: <input type="text" name="resLname" required placeholder="Smith"></label>
+                    <label for="resEmail">Email: <input type="email" name="resEmail" required placeholder="mohonri@gmail.com"></label>
+                    <label for="resPhonenum">Phone number: <input type="number" name="resPhonenum" required></label>
+                    <label for="resCountry">Home State/Country: 
+                        <select id="resCountry" name="resCountry">
+                            <option value="AR">Argentina</option>
+                            <option value="AU">Australia</option>
+                            <option value="AT">Austria</option>
+                            <option value="BR">Brazil</option>
+                            <option value="CL">Chile</option>
+                            <option value="CN">China</option>
+                            <option value="CR">Costa Rica</option>
+                            <option value="DO">Dominican Republic</option>
+                            <option value="EC">Ecuador</option>
+                            <option value="EG">Egypt</option>
+                            <option value="SV">El Salvador</option>
+                            <option value="FJ">Fiji</option>
+                            <option value="FI">Finland</option>
+                            <option value="FR">France</option>
+                            <option value="GR">Greece</option>
+                            <option value="GL">Greenland</option>
+                            <option value="HN">Honduras</option>
+                            <option value="HK">Hong Kong</option>
+                            <option value="HU">Hungary</option>
+                            <option value="IS">Iceland</option>
+                            <option value="IN">India</option>
+                            <option value="IL">Israel</option>
+                            <option value="IT">Italy</option>
+                            <option value="JM">Jamaica</option>
+                            <option value="JP">Japan</option>
+                            <option value="MX">Mexico</option>
+                            <option value="NZ">New Zealand</option>
+                            <option value="NI">Nicaragua</option>
+                            <option value="NE">Niger</option>
+                            <option value="NG">Nigeria</option>
+                            <option value="NO">Norway</option>
+                            <option value="PA">Panama</option>
+                            <option value="PG">Papua New Guinea</option>
+                            <option value="PY">Paraguay</option>
+                            <option value="PE">Peru</option>
+                            <option value="PH">Philippines</option>
+                            <option value="PL">Poland</option>
+                            <option value="PT">Portugal</option>
+                            <option value="PR">Puerto Rico</option>
+                            <option value="RO">Romania</option>
+                            <option value="SO">Somalia</option>
+                            <option value="ZA">South Africa</option>
+                            <option value="SE">Sweden</option>
+                            <option value="CH">Switzerland</option>
+                            <option value="TO">Tonga</option>
+                            <option value="UG">Uganda</option>
+                            <option value="UA">Ukraine</option>
+                            <option value="AE">United Arab Emirates</option>
+                            <option value="GB">United Kingdom</option>
+                            <option value="US">United States</option>
+                        </select>
+                    </label>
+                    <label><textarea>Questions or comments? leave them here...</textarea></label>
+                </fieldset>
             </form>
-        </fieldset>
+            <div id="reserveMoreInfo">
+                <hr>
+                <h3>Temple Inn & Suites Perks</h3>
+                <hr>
+                <li>Luxury Suites</li>
+                <li>High speed internet</li>
+                <li>100+ temples worldwide</li>
+                <li>Complimentary breakfast</li>
+                <hr>
+                <h4>Contact Us</h4>
+                <hr>
+                <section>Email:<p> celestialsuites@realsite.org</p></section>
+                <section>Phone:<p> 480-833-1211</p></section>
+                <section>Address:<p> 4800 Montgomery Ln #300 20814, Bethesda MD</p></section>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer-logo">

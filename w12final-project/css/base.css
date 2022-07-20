@@ -391,6 +391,35 @@ article.list img {
     transform: scale(1.1);
     cursor: pointer;
 }
+#reserveMoreInfo {
+    text-align: center;
+    margin: 2% auto;
+    padding: 3%;
+    background-color: var(--secondary-color);
+    border-radius: 8%;
+    border: 4px solid var(--supplement-color);
+    opacity: 90%;
+}
+#reserveMoreInfo h3, h4 {
+    font-size: 1.2rem;
+}
+#reserveMoreInfo section {
+    text-align: left;
+    font-weight: bold;
+    width: 100%;
+}
+#reserveMoreInfo p {
+    text-align: center;
+    font-weight: 600;
+    padding: 2%;
+}
+#reserveMoreInfo li {
+    padding: 2%;
+}
+#reservationForm textarea {
+    width: 100%;
+    
+}
 footer {
     background-color: var(--main-color);
     display: flex;
@@ -526,7 +555,16 @@ footer {
     }
     article.list section {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
+    }
+    #reservationForm {
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
+    }
+    #reservationForm label {
+        text-align: left;
+        padding: 2%;
     }
     footer {
         font-size: .7rem;

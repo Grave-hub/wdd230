@@ -80,6 +80,28 @@
         max-width: 50px;
         max-height: 50px;
     }
+    #reservationContainer {
+        display: grid;
+        grid-template-columns: 60% 40%;
+    }
+    #reserveMoreInfo {
+        grid-column: 2;
+        display: flex;
+        flex-direction: column;
+        padding: 5%;
+    }
+    #reserveMoreInfo section {
+        width: 80%;
+    }
+    #reservationContainer {
+        background-image: url(/wdd230/w12final-project/images/saltlakecity-edited.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #reservationContainer fieldset{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
     footer {
         font-size: .8rem;
     }
