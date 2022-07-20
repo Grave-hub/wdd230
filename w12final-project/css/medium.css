@@ -25,6 +25,33 @@
         text-align: center;
         padding: 1%;
     }
+    #main-index {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(auto-fit, minmax(1%, 25%));
+    }
+    #reservation-action {
+        grid-column: 1/-1;
+        height: 100%;
+        width: 100%;
+    }
+    #main-contact {
+        grid-column: 1;
+        grid-row: 2;
+        width: 100%;
+    }
+    #index-weather {
+        grid-column: 1/-1;
+        grid-row: 3;
+    }
+    #slideshowContainer {
+        grid-column: 2;
+        grid-row: 2;
+        width: 100%;
+    }
+    #slideShowContainer p {
+        font-size: large;
+    }
     .templeCards {
         text-align: center;
         padding: 1%;
@@ -89,6 +116,7 @@
         display: flex;
         flex-direction: column;
         padding: 5%;
+        margin: 2%;
     }
     #reserveMoreInfo section {
         width: 80%;
@@ -97,10 +125,76 @@
         background-image: url(/wdd230/w12final-project/images/saltlakecity-edited.webp);
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 1%;
     }
     #reservationContainer fieldset{
         display: grid;
         grid-template-columns: repeat(2, 50%);
+    }
+    #reservationForm label:nth-child(11) {
+        grid-column: 1/-1;
+    }
+    #servicesProvided {
+        display: flex;
+        flex-direction: row;
+        grid-column: 1/-1;
+        grid-row: 4;
+        width: 100%;
+        margin: auto;
+        padding: 2%;
+    }
+    #serviceProvided ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #services-list li, #amenities-list li {
+        width: 80%;
+    }
+    #contactInfo hr {
+        background-color: white;
+        color: white;
+    }
+    #housingDetails {
+        display: flex;
+        flex-direction: column;
+    }
+    #contactInfo {
+        width: 75%;
+        height: 100%;
+        text-align: center;
+        background-color: var(--supplement-color);
+        color: white;
+    }
+    #room1, #room2, #room3, #room4 {
+        display: flex;
+        padding: 2%;
+        background-color: var(--secondary-color);
+        margin: 1%;
+    }
+    #room1, #room2 {
+        grid-column: 1;
+    }
+    #room1 img, #room2 img, #room3 img, #room4 img {
+        box-shadow: 3px 3px 3px var(--supplement-color);
+        width: 50%;
+    }
+    #room1 hr, #room2 hr, #room3 hr, #room4 hr {
+        display: none;
+    }
+    #room1 p:first-child, #room2 p:first-child, #room3 p:first-child, #room4 p:first-child {
+        background-color: var(--supplement-color);
+        color: white;
+    }
+    #room1 p, #room2 p, #room3 p, #room4 p {
+        color: black;
+        width: auto;
+        padding: 2%;
+    }
+    #room1, #room3 {
+        flex-direction: row;
+    }
+    #room2, #room4 {
+        flex-direction: row-reverse;
     }
     footer {
         font-size: .8rem;
@@ -118,4 +212,5 @@
         max-width: 125px;
         height: 100px;
     }
+
 }

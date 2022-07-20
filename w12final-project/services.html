@@ -38,9 +38,28 @@
         </div>
     </header>
     <main>
-        <div id="services-provided">
+        <div id="servicesProvided">
+                <div class="openBtn">
+                <button class="openButton" onclick="openForm()"><strong>Wedding info</strong></button>
+                </div>
+                <br>
+                <div class="weddingPopup">
+                    <div class="formPopup" id="popUpForm">
+                        <div class="formContainer">
+                        <p>Wedding Information</p>
+                        <ul><legend>Some things to make that special day even better!</legend>
+                            <hr>
+                            <li>Access to wedding planners and event directors </li>
+                            <li>Fully stocked kitchen</li>
+                            <li>Customizable main hall to fit different themes</li>
+                            <li>Available most Mon. - Sat. | 8 am - 11pm </li>
+                        </ul>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </div>
+                    </div>
+                </div>
             <p>Our services offered to make your life easier!</p>
-            <ul id="services-list">
+            <ul id="servicesList">
                 <li>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</li>
                 <li>A playroom and low-cost, short-term babysitting services for the children of patrons</li>
                 <li>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</li>
@@ -50,7 +69,7 @@
             </ul>
             <br>
             <p>Free amenities to enjoy!</p>
-            <ul id="amenities-list">
+            <ul id="amenitiesList">
                 <li>Breakfast</li>
                 <li>Exercise/workout room</li>
                 <li>Indoor pool</li>
@@ -59,6 +78,7 @@
                 <li>Temple shuttle</li>
                 <li>Family history consultation and family ordinance card service</li>
             </ul>
+            <a id="housingInfo" href="/wdd230/w12final-project/housing.html" rel="noopener noreferrer" target="_blank">Housing Information</a>
         </div>
     </main>
     <footer>
@@ -80,5 +100,6 @@
         </div>
     </footer>
     <script src="/wdd230/js/last_updated.js" defer></script>
+    <script src="/wdd230/w12final-project/js/popUp.js" defer></script>
 </body>
 </html>

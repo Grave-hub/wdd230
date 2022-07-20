@@ -42,15 +42,15 @@
             <form method="get" action="/wdd230/w12final-project/thankYou.html">
                 <fieldset id="reservationForm">
                     <legend>Reserve Your Next Temple Trip</legend>
-                    <label for="resLocation">Location: <input type="text" name="resLocation" required placeholder=""></label>
-                    <label for="startDate">Arrival Date:<input type="date" name="startDate" required></label>
-                    <label for="endDate">Departure Date:<input type="date" name="endDate" required></label>
-                    <label for="resRooms">Number and Types of Rooms:<input type="text" name="resRooms" required placeholder=""></label>
-                    <label for="resFname">First Name: <input type="text" name="resFname" required placeholder="Joeseph"></label>
-                    <label for="resLname">Last Name: <input type="text" name="resLname" required placeholder="Smith"></label>
-                    <label for="resEmail">Email: <input type="email" name="resEmail" required placeholder="mohonri@gmail.com"></label>
-                    <label for="resPhonenum">Phone number: <input type="number" name="resPhonenum" required></label>
-                    <label for="resCountry">Home State/Country: 
+                    <label class="top" for="resLocation">Location: <input type="text" name="resLocation" required placeholder=""></label>
+                    <label class="top" for="startDate">Arrival Date: <input type="date" name="startDate" required></label>
+                    <label class="top" for="endDate">Departure Date: <input type="date" name="endDate" required></label>
+                    <label class="top" for="resRooms">Number of Rooms: <input type="number" name="resNum" required></label>
+                    <label class="top" for="resFname">First Name: <input type="text" name="resFname" required placeholder="Joeseph"></label>
+                    <label class="top" for="resLname">Last Name: <input type="text" name="resLname" required placeholder="Smith"></label>
+                    <label class="top" for="resEmail">Email: <input type="email" name="resEmail" required placeholder="mohonri@gmail.com"></label>
+                    <label class="top" for="resPhonenum">Phone number: <input type="tel" name="resPhonenum" required></label>
+                    <label class="top" for="resCountry">Home State/Country: 
                         <select id="resCountry" name="resCountry">
                             <option value="AR">Argentina</option>
                             <option value="AU">Australia</option>
@@ -105,6 +105,7 @@
                         </select>
                     </label>
                     <label><textarea>Questions or comments? leave them here...</textarea></label>
+                    <input type="submit" value="Send">
                 </fieldset>
             </form>
             <div id="reserveMoreInfo">
