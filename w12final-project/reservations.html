@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Temple Inn & Suites | Reserve now</title>
-    <meta name="description" content="This is The Temple Suite and Inn reservation page designed by Adam H. for a frontend web development class">
+    <meta name="description" content="This is The Temple Suite and Inn services page designed by Adam H. for a frontend web development class">
     <link rel="shortcut icon" href="/wdd230/w12final-project/images/temple-inn-logo.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,14 +42,14 @@
             <form method="get" action="/wdd230/w12final-project/thankYou.html">
                 <fieldset id="reservationForm">
                     <legend>Reserve Your Next Temple Trip</legend>
-                    <label class="top" for="resLocation">Location: <input type="text" name="resLocation" required placeholder=""></label>
-                    <label class="top" for="startDate">Arrival Date: <input type="date" name="startDate" required></label>
-                    <label class="top" for="endDate">Departure Date: <input type="date" name="endDate" required></label>
-                    <label class="top" for="resRooms">Number of Rooms: <input type="number" name="resNum" required></label>
-                    <label class="top" for="resFname">First Name: <input type="text" name="resFname" required placeholder="Joeseph"></label>
-                    <label class="top" for="resLname">Last Name: <input type="text" name="resLname" required placeholder="Smith"></label>
-                    <label class="top" for="resEmail">Email: <input type="email" name="resEmail" required placeholder="mohonri@gmail.com"></label>
-                    <label class="top" for="resPhonenum">Phone number: <input type="tel" name="resPhonenum" required></label>
+                    <label class="top" for="resLocation">Location: <input id="resLocation" type="text" name="resLocation" required placeholder=""></label>
+                    <label class="top" for="startDate">Arrival Date: <input id="startDate" type="date" name="startDate" required></label>
+                    <label class="top" for="endDate">Departure Date: <input id="endDate" type="date" name="endDate" required></label>
+                    <label class="top" for="resRooms">Number of Rooms: <input id="resRooms" type="number" name="resNum" required></label>
+                    <label class="top" for="resFname">First Name: <input id="resFname" type="text" name="resFname" required placeholder="Joeseph"></label>
+                    <label class="top" for="resLname">Last Name: <input id="resLname" type="text" name="resLname" required placeholder="Smith"></label>
+                    <label class="top" for="resEmail">Email: <input id="resEmail" type="email" name="resEmail" required placeholder="mohonri@gmail.com"></label>
+                    <label class="top" for="resPhonenum">Phone number: <input id="resPhonenum" type="tel" name="resPhonenum" required></label>
                     <label class="top" for="resCountry">Home State/Country: 
                         <select id="resCountry" name="resCountry">
                             <option value="AR">Argentina</option>
@@ -112,10 +112,12 @@
                 <hr>
                 <h3>Temple Inn & Suites Perks</h3>
                 <hr>
-                <li>Luxury Suites</li>
-                <li>High speed internet</li>
-                <li>100+ temples worldwide</li>
-                <li>Complimentary breakfast</li>
+                <ul>
+                    <li>Luxury Suites</li>
+                    <li>High speed internet</li>
+                    <li>100+ temples worldwide</li>
+                    <li>Complimentary breakfast</li>
+                </ul>
                 <hr>
                 <h4>Contact Us</h4>
                 <hr>
@@ -127,7 +129,7 @@
     </main>
     <footer>
         <div class="footer-logo">
-            <img src="/wdd230/images/gravy-logoSVG.svg">
+            <img src="/wdd230/images/gravy-logoSVG.svg" alt="logo image with gravy boat on fire">
             <p>Adam Gravy - WDD 230 - &copy;<span id="year"></span></p>
             <p>Last updated: <span id="last_updated"></span></p>
             <p><a href="resources.html" rel="noopener noreferrer" target="_blank">Resources Used</a></p>
@@ -139,7 +141,7 @@
         </div>
         <div class="footer-map">
         <p>Visit us!</p>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1844.11511439921!2d-77.09685473119056!3d38.98291945111612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1656971186186!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" so></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1844.11511439921!2d-77.09685473119056!3d38.98291945111612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b8f21f1%3A0x9a0b3cde14da0a60!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1656971186186!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
         </div>
     </footer>

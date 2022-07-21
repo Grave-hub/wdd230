@@ -65,4 +65,17 @@
     #housingDetails p {
         font-size: smaller;
     }
+    #servicesList li, #amenitiesList li {
+        width: 75%;
+    }
+    #servicesProvided a {
+        padding: 1%;
+    }
+    .formPopup {
+        height: 100%;
+        margin: 1%;
+    }
+    .formContainer {
+        height: 100%;
+    }
 }

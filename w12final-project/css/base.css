@@ -216,6 +216,33 @@ hr {
     margin: 2% 10% 2% 10%;
     border-radius: 1rem;
 }
+#servicesProvided1 {
+    text-align: center;
+    line-height: 2rem;
+    padding: 2%;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    width: 75%;
+}
+#amenitiesProvided1 {
+    text-align: center;
+    line-height: 2rem;
+    padding: 2%;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    width: 75%;
+}
+#amenitiesProvided1 p, #servicesProvided1 p {
+    font-size: larger;
+    background-color: var(--supplement-color);
+    color: white;
+    padding: 2%;
+    border-radius: 1rem;
+}
+#amenitiesProvided1 li, #servicesProvided1 li {
+    list-style: square;
+    text-align: left;
+}
 #servicesProvided {
     display: flex;
     flex-direction: column;
@@ -519,14 +546,12 @@ footer {
     transform: scale(1.1);
 }
 .weddingPopup {
-    margin: 2%;
     text-align: center;
     width: 100%;
 }
 .formPopup {
     display: none;
     margin: auto;
-    border: 3px solid var(--supplement-color);
     border-radius: 1rem;
     z-index: 3;
 }
@@ -562,6 +587,7 @@ footer {
     background-color: var(--supplement-color);
     color: white;
     margin: 2% auto 1% auto;
+    z-index: 4;
 }
 .formContainer .btn:hover,
 .openButton:hover {
@@ -605,6 +631,52 @@ footer {
 }
 #contactInfo h5 {
     font-size: large;
+}
+#mainThankYou {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    border: var(--border-template);
+    border-radius: 1rem;
+    color: black;
+    margin: 5% auto;
+    width: 70%;
+    padding: 5%;
+}
+#mainThankYou h3 {
+    font-size: large;
+    margin: 4%;
+}
+#mainThankYou p {
+    margin: 4%;
+}
+#mainThankYou a {
+    margin: 4%;
+    padding: 2%;
+    border-radius: 1rem;
+    font-family: var(--paragraph-font);
+    background-color: var(--supplement-color);
+    color: white;
+    margin: auto;
+}
+#mainThankYou a:hover {
+    background-color: var(--main-color);
+    color: black;
+    transform: scale(1.1);
+}
+#resourcesMain {
+    width: 60%;
+    text-align: center;
+    font-size: 120%;
+    line-height: 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 1rem;
+    margin: 5% auto;
+    padding: 5%;
+}
+#resourcesMain h3 {
+    font-size: 120%;
 }
 .footer-map {
     display: flex;
